@@ -1,0 +1,121 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 968px) {
+    .slider-area .container {
+        width: 768px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .slider-area .container {
+        width: 1200px;
+    }
+    
+}
+@media only screen and (min-width: 1600px) {
+    .slider-area .container {
+        width: 1400px;
+    }
+    .slider-area .slider-content{
+        left:175px;
+    }
+    #clockdiv, #clockdiv2 {
+        transform: translate(25%, 0px);
+    }
+    .btn_top_fold_wrapper{
+        right:95px;
+    }
+    .landing-video-area .videos-heding .videos-box {
+        width: 75%;
+    }  
+}
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width: 1900px) {
+    .slider-area .container {
+        width: 1700px;
+    }
+    .slider-area .slider-content{
+        left:210px;
+    }
+    #clockdiv, #clockdiv2 {
+        transform: translate(35%, 0px);
+    }
+    .btn_top_fold_wrapper{
+        right:140px;
+    }
+    .landing-video-area .videos-heding .videos-box {
+        width: 75%;
+    }  
+}
+
+@media only screen and (max-width: 2000px) {
+
+     
+}
+
+@media only screen and (max-width: 1600px) {
+   
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    #clockdiv, #clockdiv2 {
+        font-weight: 100;
+        font-size: 70px;
+        transform: translate(5%, 0px);
+    }
+    .landing-video-area .videos-heding .videos-box {
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 992px) {
+    #clockdiv, #clockdiv2 {
+        font-weight: 100;
+        font-size: 70px;
+        transform: translate(20%, 0px);
+      }
+    .landing-video-area .videos-heding .videos-box {
+        width: 100%;
+    }      
+}
+@media only screen and (max-width: 768px) {
+    #clockdiv, #clockdiv2 {
+        font-weight: 100;
+        font-size: 70px;
+        transform: translate(0%, 0px);
+      }
+}
+
+@media only screen and (max-width: 768px){
+    .slider {
+        height: 500px;
+    }
+    .btc_timer_section_wrapper {
+        padding-top: 0px!important;
+        text-align: center;
+    }
+
+    .landing-video-area {
+        padding-top: 120px;
+    }
+
+    .landing-video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        background: #fff;
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+        left: 0;
+        right: 0;
+        top: 40%;
+        margin: 0 auto;
+    }
+    .landing-video-area .videos-heding .videos-box .video-js .vjs-big-play-button:before {
+        content: "";
+        position: absolute;
+        height: 65px;
+        width: 75px;
+        line-height: 100px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
