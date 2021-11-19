@@ -3,13 +3,13 @@
 html,
 body {
   font-size: 16px;
-  color: #8486a6;
+  color: #0651AD;
   font-family: "Lato", sans-serif;
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
   overflow-x: hidden;
-  background: #10122d;
+  background: #f1f1f1;
 }
 /*-- Preloader css start --*/
 #preloader {
@@ -57,7 +57,7 @@ body {
   z-index: 1000;
 }
 #return-to-top i {
-  color: #fff;
+  color: #0651AD;
   margin: 0;
   position: relative;
   left: 16px;
@@ -70,7 +70,7 @@ body {
   transition: all 0.3s ease;
 }
 #return-to-top:hover i {
-  color: #fff;
+  color: #0651AD;
   top: 5px;
 }
 /*Responsive Media*/
@@ -377,7 +377,7 @@ h4 {
 .section-heading2 h2 {
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
+  color: #0651AD;
 }
 @media only screen and (max-width: 768px) {
   .section-heading2 h2 {
@@ -735,7 +735,7 @@ align-items: center;
 }
 .slider-area  .nextButton svg *,
 .slider-area  .previousButton svg *{
-  fill:  #fff;
+  fill:  #0651AD;
 }
 .slider-area .previousButton {
   left: -138px;
@@ -743,7 +743,7 @@ align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: #10122d;
+  background: #f1f1f1;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -756,7 +756,7 @@ align-items: center;
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: #10122d;
+  background: #f1f1f1;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -1755,7 +1755,7 @@ header .menu-area nav ul li:first-child {
 }
 header .menu-area nav ul li a {
   display: inline-block;
-  color: #fff;
+  color: #0651AD;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1812,7 +1812,7 @@ header .menu-area .side_menu span {
   cursor: pointer;
 }
 header .menu-area .side_menu span i {
-  color: #fff;
+  color: #0651AD;
 }
 header .mobilemenu .mean-container .mean-nav {
   background: #1d1d22;
@@ -1888,7 +1888,7 @@ header .mobilemenu .mean-container a.meanmenu-reveal {
   right: 0 !important;
   top: 0 !important;
   z-index: 100000 !important;
-  background: #0a0c23;
+  background: #ffffff;
 }
 .rp_mobail_menu_main_wrapper {
   float: none;
@@ -1900,7 +1900,7 @@ header .mobilemenu .mean-container a.meanmenu-reveal {
   height: 100%;
   top: 0px;
   left: -500px;
-  background-color: #2c2e53;
+  background-color: #efefef;
   overflow: scroll;
   overflow-x: hidden;
   z-index: 1000;
@@ -2202,7 +2202,7 @@ ul ul > li.has-sub > a:before {
   border-radius: 100%;
 }
 .slider-area .slider-content ul li a:hover {
-  color: #fff;
+  color: #0651AD;
   background: rgba(57, 100, 208, 1);
   background: -moz-linear-gradient(
     left,
@@ -2240,7 +2240,7 @@ ul ul > li.has-sub > a:before {
 .slider-area .slider-content h2 {
   font-weight: 900;
   font-size: 50px;
-  color: #fff;
+  color: #0651AD;
   margin: 0 0 50px;
   text-shadow: 0 5px 30px rgba(44, 46, 83, 0.3);
   animation-delay: 1.8s;
@@ -2273,7 +2273,7 @@ ul ul > li.has-sub > a:before {
 }
 .slider-area .slider-content .buttons a:last-child {
   margin-right: 0;
-  color: #fff;
+  color: #0651AD;
 }
 @media only screen and (max-width: 320px) {
   .slider-area .slider-content .buttons a:last-child {
@@ -2333,7 +2333,7 @@ ul ul > li.has-sub > a:before {
 }
 #clockdiv,
 #clockdiv2 {
-  color: #fff;
+  color: #0651AD;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -2411,7 +2411,7 @@ ul ul > li.has-sub > a:before {
   outline: none;
   color: #8486a6;
   padding-left: 20px;
-  background: #08091b;
+  background: #ffffff;
   border-radius: 50px;
   text-transform: capitalize;
   border: transparent;
@@ -2464,7 +2464,7 @@ ul ul > li.has-sub > a:before {
   );
   padding: 0 35px;
   font-weight: 700;
-  color: #fff;
+  color: #0651AD;
   text-transform: uppercase;
   animation-delay: 2.4s;
 }
@@ -2501,7 +2501,7 @@ ul ul > li.has-sub > a:before {
     rgba(45, 193, 201, 1) 0%,
     rgba(57, 100, 208, 1) 100%
   );
-  color: #fff;
+  color: #0651AD;
 }
 .btn4 button {
   background: transparent;
@@ -2559,7 +2559,7 @@ ul ul > li.has-sub > a:before {
   }
 }
 .about-area .about-content h2 {
-  color: #ffffff;
+  color: #0651AD;
 }
 @media only screen and (max-width: 320px) {
   .about-area .about-content h2 {
@@ -2589,7 +2589,7 @@ ul ul > li.has-sub > a:before {
   margin-right: -150px;
 }
 .about-area {
-  background: #08091b;
+  background: #ffffff;
 }
 @media only screen and (max-width: 1600px) {
   .about-area .about-img {
@@ -2610,7 +2610,7 @@ ul ul > li.has-sub > a:before {
 7. Blog area start here
 ....................................*/
 .blog-area {
-  background: #10122d;
+  background: #f1f1f1;
   position: relative;
   display: block;
 }
@@ -2642,7 +2642,7 @@ ul ul > li.has-sub > a:before {
 .blog-area .blog .content {
   display: block;
   position: relative;
-  background: #08091b;
+  background: #ffffff;
   padding: 30px 35px;
 }
 .blog-area .blog .content span {
@@ -2691,7 +2691,7 @@ ul ul > li.has-sub > a:before {
 .blog-area .view-btn a {
   display: inline-block;
   font-weight: 700;
-  color: #fff;
+  color: #0651AD;
   font-size: 14px;
   text-transform: uppercase;
   background: rgba(57, 100, 208, 1);
@@ -2787,9 +2787,9 @@ ul ul > li.has-sub > a:before {
   height: 80px;
   line-height: 80px;
   border-radius: 100%;
-  background: #08091b;
+  background: #d3d3d3;
   font-size: 40px;
-  color: #fff;
+  color: #0651AD;
   position: absolute;
   margin: 0;
   padding: 0;
@@ -2797,7 +2797,7 @@ ul ul > li.has-sub > a:before {
   text-align: center;
 }
 .blog-area .owl-nav div:hover {
-  background: #141633;
+  background: #bebdff;
 }
 .blog-area .owl-nav div.owl-prev {
   left: 0;
@@ -2820,7 +2820,7 @@ footer {
 }
 footer .footer-bottom {
   display: block;
-  background: #08091b;
+  background: #ffffff;
   height: 100px;
   line-height: 100px;
   position: relative;
@@ -2872,7 +2872,7 @@ footer .footer-bottom .foo-link ul li a:hover {
 }
 
 footer .footer-top {
-  background: #10122d;
+  background: #f1f1f1;
   display: block;
   position: relative;
 }
@@ -2885,7 +2885,7 @@ footer .footer-top .con {
 footer .footer-top .con h2 {
   font-weight: 400;
   font-size: 40px;
-  color: #fff;
+  color: #0651AD;
   margin: 0 0 78px;
 }
 footer .footer-top .con ul li {
@@ -2943,7 +2943,7 @@ footer .footer-top .con ul li a {
   border-radius: 100%;
 }
 footer .footer-top .con ul li a:hover {
-  color: #fff;
+  color: #0651AD;
   background: rgba(45, 193, 201, 1);
   background: -moz-linear-gradient(
     left,
@@ -3051,7 +3051,7 @@ footer .footer-top .con ul li a:hover {
     rgba(57, 100, 208, 1) 0%,
     rgba(45, 193, 201, 1) 100%
   );
-  color: #fff;
+  color: #0651AD;
   line-height: 90px;
   border-radius: 100%;
   font-size: 14px;
@@ -3139,7 +3139,7 @@ footer .footer-top .con ul li a:hover {
   z-index: 99;
 }
 .video-des .deslidt ul li .left-con .box-con .dbox {
-  background: #10122d;
+  background: #f1f1f1;
   border-radius: 22px;
   width: 400px;
   height: 195px;
@@ -3301,7 +3301,7 @@ footer .footer-top .con ul li a:hover {
   z-index: 99;
 }
 .video-des .deslidt ul li .right-con .box-con .dbox {
-  background: #10122d;
+  background: #f1f1f1;
   border-radius: 22px;
   width: 400px;
   height: 195px;
@@ -3461,7 +3461,7 @@ footer .footer-top .con ul li a:hover {
   z-index: 99;
 }
 .video-des .deslidt ul li .center-con .box-con .dbox {
-  background: #10122d;
+  background: #f1f1f1;
   border-radius: 22px;
   width: 400px;
   height: 195px;
@@ -3629,7 +3629,7 @@ footer .footer-top .con ul li a:hover {
   vertical-align: middle;
   z-index: 1000;
   margin-top: -90px;
-  background: #08091b;
+  background: #ffffff;
 }
 .currency-area .rete-list {
   display: inline-block;
@@ -3721,7 +3721,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .currency-area .rete-list .content {
-  background: #10122d;
+  background: #f1f1f1;
   padding: 0 50px;
   display: block;
   border-radius: 10px;
@@ -3861,7 +3861,7 @@ footer .footer-top .con ul li a:hover {
 }
 .projects .project-list .content {
   display: block;
-  background: #10122d;
+  background: #f1f1f1;
   text-align: center;
   padding: 60px 0 70px;
   border-radius: 15px;
@@ -3883,14 +3883,14 @@ footer .footer-top .con ul li a:hover {
   line-height: 28px;
 }
 .projects {
-  background: #08091b;
+  background: #ffffff;
 }
 .media-area .mediabrand ul {
   display: block;
   margin: -30px;
 }
 .media-area {
-  background: #08091b;
+  background: #ffffff;
 }
 .media-area .mediabrand ul li {
   display: inline-block;
@@ -3898,7 +3898,7 @@ footer .footer-top .con ul li a:hover {
 }
 
 .tokens-area {
-  background: #10122d;
+  background: #f1f1f1;
   position: relative;
 }
 .tokens-area .tokens {
@@ -3908,7 +3908,7 @@ footer .footer-top .con ul li a:hover {
 }
 .tokens-area .tokens .token-name {
   display: inline-block;
-  color: #fff;
+  color: #ffffff;
   background: rgba(57, 100, 208, 1);
   background: -moz-linear-gradient(
     left,
@@ -3952,7 +3952,7 @@ footer .footer-top .con ul li a:hover {
   z-index: 999;
 }
 .tokens-area .tokens .token-body {
-  background: #08091b;
+  background: #0651AD;
   height: 464px;
   padding: 50px 55px;
   display: inline-block;
@@ -3971,7 +3971,7 @@ footer .footer-top .con ul li a:hover {
   line-height: 54px;
   padding: 0 45px;
   border-radius: 50px;
-  border: 3px solid #5e619c;
+  border: 3px solid #4699ff;
   font-size: 20px;
   font-weight: 900;
   color: #ffffff;
@@ -3985,7 +3985,7 @@ footer .footer-top .con ul li a:hover {
   border-radius: 50px;
   font-size: 20px;
   font-weight: 900;
-  color: #fff;
+  color: #ffffff;
   background: rgba(57, 100, 208, 1);
   background: -moz-linear-gradient(
     left,
@@ -4078,14 +4078,14 @@ footer .footer-top .con ul li a:hover {
   text-align: center;
 }
 .tokens-area .token-con {
-  color: #fff;
+  color: #0651AD;
   margin: 50px 0 0;
   font-size: 20px;
 }
 
 .token-details .cart-list {
   display: block;
-  background: #10122d;
+  background: #f1f1f1;
   overflow: hidden;
   vertical-align: middle;
   border-radius: 15px;
@@ -4139,7 +4139,7 @@ footer .footer-top .con ul li a:hover {
 .token-details .cart-list .label-chatrs .clabels-text {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
+  color: #0c0e29;
 }
 .token-details .cart-list .label-chatrs p {
   margin: 0;
@@ -4162,8 +4162,8 @@ footer .footer-top .con ul li a:hover {
   width: 70px;
   top: 0;
   bottom: 0;
-  background: #0c0e29;
-  color: #fff;
+  background: #dedede;
+  color: #0651AD;
   opacity: 1;
   font-size: 50px;
   transition: all 0.5s;
@@ -4215,7 +4215,7 @@ footer .footer-top .con ul li a:hover {
   border-radius: 0 15px 15px 0;
 }
 .token-details {
-  background: #08091b;
+  background: #ffffff;
 }
 .token-details .contents h2 {
   font-weight: 400;
@@ -4266,7 +4266,7 @@ footer .footer-top .con ul li a:hover {
 
 .features-area {
   position: relative;
-  background: #10122d;
+  background: #f1f1f1;
   z-index: 1;
 }
 @media only screen and (max-width: 768px) {
@@ -4294,7 +4294,7 @@ footer .footer-top .con ul li a:hover {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #5e619c;
+  background: #0651AD;
   width: 2px;
   margin: 0 auto;
 }
@@ -4330,7 +4330,7 @@ footer .footer-top .con ul li a:hover {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #5e619c;
+  background: #0651AD;
 }
 @media only screen and (max-width: 768px) {
   .features-area .featured-lists ul li:after {
@@ -4340,11 +4340,11 @@ footer .footer-top .con ul li a:hover {
 .features-area .featured-lists ul li:before {
   content: "";
   position: absolute;
-  left: 19.5%;
+  left: 38%;
   right: 0;
   width: 50%;
   height: 2px;
-  background: #5e619c;
+  background: #0651AD;
   top: 99px;
 }
 @media only screen and (max-width: 768px) {
@@ -4362,7 +4362,7 @@ footer .footer-top .con ul li a:hover {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background: #5e619c;
+  background: #0651AD;
 }
 @media only screen and (max-width: 768px) {
   .features-area .featured-lists ul li.rl:after {
@@ -4376,7 +4376,7 @@ footer .footer-top .con ul li a:hover {
   right: 0;
   width: 40%;
   height: 2px;
-  background: #5e619c;
+  background: #0651AD;
   top: 99px;
 }
 @media only screen and (max-width: 768px) {
@@ -4394,7 +4394,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li .contents-l h2 {
-  color: #fff;
+  color: #0651AD;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 0 0 20px;
@@ -4439,7 +4439,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li .contents-r h2 {
-  color: #fff;
+  color: #0651AD;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 0 0 20px;
@@ -4476,7 +4476,7 @@ footer .footer-top .con ul li a:hover {
 .steps-area {
   position: relative;
   display: block;
-  background: #10122d;
+  background: #f1f1f1;
 }
 .steps-area .steps-heading {
   display: block;
@@ -4487,7 +4487,7 @@ footer .footer-top .con ul li a:hover {
 }
 .steps-area .steps-heading h2 {
   margin: 0;
-  color: #fff;
+  color: #0651AD;
   font-size: 40px;
   font-weight: 400;
   line-height: 70px;
@@ -4606,7 +4606,7 @@ footer .footer-top .con ul li a:hover {
   );
 
   border: 3px solid rgb(58, 159, 165);
-  color: #fff;
+  color: #0651AD;
 }
 .steps-area .steps-heading .right-con a:hover:before {
   bottom: -103px;
@@ -4806,7 +4806,7 @@ footer .footer-top .con ul li a:hover {
     rgba(57, 100, 208, 1) 0%,
     rgba(45, 193, 201, 1) 100%
   );
-  color: #fff;
+  color: #0651AD;
   font-size: 30px;
   border-radius: 100%;
   text-align: center;
@@ -4902,7 +4902,7 @@ footer .footer-top .con ul li a:hover {
     rgba(57, 100, 208, 1) 0%,
     rgba(45, 193, 201, 1) 100%
   );
-  color: #fff;
+  color: #0651AD;
   font-size: 30px;
   border-radius: 100%;
   text-align: center;
@@ -4938,7 +4938,7 @@ footer .footer-top .con ul li a:hover {
   width: 45%;
   top: 0;
   bottom: 0;
-  border-top: 2px solid #5e619c;
+  border-top: 2px solid #0651AD;
   border-radius: 0;
 }
 @media only screen and (max-width: 480px) {
@@ -4947,9 +4947,9 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .steps-details .steps-cont ul li:nth-child(4):after {
-  border-left: 2px solid #5e619c;
-  border-top: 2px solid #5e619c;
-  border-bottom: 2px solid #5e619c;
+  border-left: 2px solid #0651AD;
+  border-top: 2px solid #0651AD;
+  border-bottom: 2px solid #0651AD;
 }
 .steps-details .steps-cont ul li:nth-child(4) .cont h2 {
   margin: 0 0 5px;
@@ -4965,7 +4965,7 @@ footer .footer-top .con ul li a:hover {
   width: 70px;
   height: 70px;
   line-height: 66px;
-  border: 2px solid #5e619c;
+  border: 2px solid #0651AD;
   background: #0b0c22;
   color: #ffffff;
   font-size: 30px;
@@ -4983,12 +4983,12 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .steps-details .steps-cont ul li:nth-child(5):before {
-  border-top: 2px solid #5e619c;
+  border-top: 2px solid #0651AD;
 }
 .steps-details .steps-cont ul li:nth-child(5):after {
-  border-right: 2px solid #5e619c;
-  border-top: 2px solid #5e619c;
-  border-bottom: 2px solid #5e619c;
+  border-right: 2px solid #0651AD;
+  border-top: 2px solid #0651AD;
+  border-bottom: 2px solid #0651AD;
 }
 .steps-details .steps-cont ul li:nth-child(5) .cont h2 {
   margin: 0 0 5px;
@@ -5011,14 +5011,14 @@ footer .footer-top .con ul li a:hover {
 }
 .steps-details,
 .video-des {
-  background: #08091b;
+  background: #ffffff;
 }
 .steps-details .steps-cont ul li:nth-child(6):before {
-  border-top: 2px solid #5e619c;
+  border-top: 2px solid #0651AD;
 }
 .steps-details .steps-cont ul li:nth-child(6):after {
-  border-left: 2px solid #5e619c;
-  border-top: 2px solid #5e619c;
+  border-left: 2px solid #0651AD;
+  border-top: 2px solid #0651AD;
   border-bottom: none;
 }
 .steps-details .steps-cont ul li:nth-child(6) .cont h2 {
@@ -5047,7 +5047,7 @@ footer .footer-top .con ul li a:hover {
   overflow: hidden;
   vertical-align: middle;
   margin: 0 0 -9px;
-  background: #08091b;
+  background: #ffffff;
 }
 @media only screen and (max-width: 992px) {
   .sud {
@@ -5068,14 +5068,14 @@ body.date-20180212.exp-invert-logo {
 .video-area {
   position: relative;
   display: block;
-  background: #10122d;
+  background: #f1f1f1;
   padding-bottom: 120px;
   text-align: center;
   margin: 0;
 }
 .video-area .videos-heding h2 {
   font-size: 40px;
-  color: #fff;
+  color: #0651AD;
   font-weight: 400;
   margin: 0 0 60px;
 }
@@ -5106,20 +5106,20 @@ body.date-20180212.exp-invert-logo {
   width: auto;
 }
 .video-area .videos-heding .videos-box .video-js {
-  background: #fff;
+  background: #ffffff;
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
 .video-area .videos-heding .videos-box .vjs-poster {
-  background: #fff;
+  background: #ffffff;
   border-radius: 30px;
 }
 .video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
   width: 125px;
   height: 125px;
   border-radius: 100%;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   left: 0;
   right: 0;
@@ -5150,7 +5150,7 @@ body.date-20180212.exp-invert-logo {
 5. Team area start here
 ....................................*/
 .team-area {
-  background: #10122d;
+  background: #f1f1f1;
   position: relative;
 }
 .team-area .team-list {
@@ -5159,7 +5159,7 @@ body.date-20180212.exp-invert-logo {
   height: 350px;
   margin-top: 18px;
   border-radius: 15px;
-  background: #08091b;
+  background: #ffffff;
   margin-bottom: 50px;
 }
 .team-area .team-list:after {
@@ -5209,7 +5209,7 @@ body.date-20180212.exp-invert-logo {
   z-index: 9999;
   padding: 0 45px;
   padding-top: 45px;
-  background: #08091b;
+  background: #ffffff;
   z-index: 999;
   border-radius: 15px;
 }
@@ -5373,7 +5373,7 @@ body.date-20180212.exp-invert-logo {
 }
 
 .team2-area {
-  background: #10122d;
+  background: #f1f1f1;
   position: relative;
 }
 .team2-area .team-list {
@@ -5382,7 +5382,7 @@ body.date-20180212.exp-invert-logo {
   height: 350px;
   margin-top: 18px;
   border-radius: 15px;
-  background: #10122d;
+  background: #f1f1f1;
   margin-bottom: 50px;
   transition: all 0.5s;
 }
@@ -5436,7 +5436,7 @@ body.date-20180212.exp-invert-logo {
   z-index: 9999;
   padding: 0 45px;
   padding-top: 45px;
-  background: #10122d;
+  background: #f1f1f1;
   z-index: 999;
   border-radius: 15px;
 }
@@ -5591,7 +5591,7 @@ body.date-20180212.exp-invert-logo {
   );
 }
 .team2-area {
-  background: #08091b;
+  background: #ffffff;
 }
 .team2-area .team-list .con p {
   padding: 0 20px;
@@ -5605,7 +5605,7 @@ body.date-20180212.exp-invert-logo {
 ....................................*/
 .slider-area {
   position: relative;
-  background: #08091b;
+  background: #f1f1f1;
 }
 canvas {
   position: absolute;

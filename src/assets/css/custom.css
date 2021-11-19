@@ -3,26 +3,20 @@
 html,
 body {
   font-size: 16px;
-  color: #8486a6;
+  /* color: #0651AD; */
   font-family: "Lato", sans-serif;
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
   overflow-x: hidden;
-  background: #10122d;
+  /* background: #ffffff; */
 }
 .menu-area .menu-navs {
   display: inline-block;
 }
-
-.slider-area {
-  background: rgb(2,2,2);
-  background: linear-gradient(180deg, rgba(2,2,2,1) 0%, rgba(8,9,27,1) 100%);
-}
 .landing-video-area {
   position: relative;
   display: block;
-  background: transparent;
   text-align: center;
   padding-bottom: 0;
 }
@@ -47,7 +41,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto;
-  background-color: #131313;
   background-size: cover;
 }
 
@@ -156,8 +149,6 @@ body {
   background: -webkit-gradient(
     left top,
     right top,
-    color-stop(0%, rgba(57, 100, 208, 1)),
-    color-stop(100%, rgba(45, 193, 201, 1))
   );
   background: -webkit-linear-gradient(
     left,
@@ -180,7 +171,6 @@ body {
     rgba(45, 193, 201, 1) 100%
   );
   font-weight: 700;
-  color: #fff;
   text-transform: uppercase;
   animation-delay: 2.4s;
 }
@@ -195,8 +185,6 @@ body {
   background: -webkit-gradient(
   left top,
   right top,
-  color-stop(0%, rgba(57, 100, 208, 1)),
-  color-stop(100%, rgba(45, 193, 201, 1))
 );
   background: linear-gradient(
   to right,
@@ -204,7 +192,6 @@ body {
   rgba(45, 193, 201, 1) 100%
 );
   font-weight: 700;
-  color: #ffffff;
   text-transform: uppercase;
   -webkit-animation-delay: 2.4s;
   animation-delay: 2.4s;
@@ -214,7 +201,6 @@ body {
 }
 
 #clockdiv, #clockdiv2 {
-  color: #fff;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -275,7 +261,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(4) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(4) .cont p {
   margin: 0;
@@ -286,9 +271,6 @@ body {
   width: 70px;
   height: 70px;
   line-height: 66px;
-  border: 2px solid #5e619c;
-  background: #0b0c22;
-  color: #ffffff;
   font-size: 30px;
   border-radius: 100%;
   text-align: center;
@@ -314,7 +296,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(5) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(5) .cont p {
   margin: 0;
@@ -322,8 +303,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(5) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
-  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   .steps-details .steps-cont ul li:nth-child(5) span {
@@ -342,7 +321,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(6) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(6) .cont p {
   margin: 0;
@@ -351,7 +329,6 @@ body {
   line-height: 66px;
   border: 2px solid #8486a6;
   background: #0b0c22;
-  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   .steps-details .steps-cont ul li:nth-child(6) span {
@@ -371,7 +348,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(7) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(7) .cont p {
   margin: 0;
@@ -379,8 +355,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(7) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
-  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   .steps-details .steps-cont ul li:nth-child(7) span {
@@ -399,7 +373,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(8) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(8) .cont p {
   margin: 0;
@@ -407,8 +380,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(8) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
-  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   .steps-details .steps-cont ul li:nth-child(8) span {
@@ -427,7 +398,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(9) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
 }
 .steps-details .steps-cont ul li:nth-child(9) .cont p {
   margin: 0;
@@ -435,8 +405,6 @@ body {
 .steps-details .steps-cont ul li:nth-child(9) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
-  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   .steps-details .steps-cont ul li:nth-child(9) span {

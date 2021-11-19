@@ -14,16 +14,16 @@ class M_HomePage extends Component {
       <Fragment>
         <div className="wd_scroll_wrap">
           <MainSlider />
-          <About fill="#10122d" />
+          <About fill="#f1f1f4" />
         </div>
         <div className="wd_scroll_wrap">
             <Previews />
         </div>
         <Features animate='shakeX' />
-        <Roadmap fill="#10122d" />
+        <Roadmap fill="#f1f1f4" />
         <div className="wd_scroll_wrap">
           <Tokens />
-          <Teams fill="#10122d" />
+          <Teams fill="#f1f1f4" />
         </div>
         <Faqs />
       </Fragment>
