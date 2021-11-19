@@ -1889,6 +1889,7 @@ header .mobilemenu .mean-container a.meanmenu-reveal {
   top: 0 !important;
   z-index: 100000 !important;
   background: #ffffff;
+  box-shadow: 0 0 50px -10px #000;
 }
 .rp_mobail_menu_main_wrapper {
   float: none;
