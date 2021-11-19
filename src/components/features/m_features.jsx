@@ -14,7 +14,7 @@ class Features extends Component {
         <Row>
           <Col lg={12} md={12} sm={12} className="col-xs-12">
             <div className="section-heading2">
-              <h2>Our Features</h2>
+              <h2>OUR FEATURES</h2>
             </div>
           </Col>
         </Row>
@@ -25,14 +25,9 @@ class Features extends Component {
                 <li>
                   <Col className="pd-0 hidden-xs" sm={6}>
                     <div className="contents-l mr-b30">
-                      <h2>Whitelist</h2>
+                      <h2>Killer Cubs Generation 1</h2>
                       <p>
-                        There are 450 connections for our whitelists. <br />
-                        30-40 connections will be added every day for members <br />
-                        who assist the community through Twitter, Discord, Youtube <br />
-                        and the others, until being launched.
-                        Help to spread with the word, grow the lair, <br />
-                        then have a chance to win a spot in the whitelist!
+                      Featuring Little Jay nft
                       </p>
                       {/*<Link to="#" className="btn1">read more</Link>*/}
                     </div>
@@ -44,14 +39,9 @@ class Features extends Component {
                   </Col>
                   <Col className="pd-0 visible-xs" sm={6}>
                     <div className="contents-l mr-b30">
-                    <h2>Whitelist</h2>
+                    <h2>Killer Cubs Generation 1</h2>
                       <p>
-                        There are 450 connections for our whitelists. <br />
-                        30-40 connections will be added every day for members <br />
-                        who assist the community through Twitter, Discord, Youtube <br />
-                        and the others, until being launched.
-                        Help to spread with the word, grow the lair, <br />
-                        then have a chance to win a spot in the whitelist!
+                      Featuring Little Jay nft
                       </p>
                       {/*<Link to="#" className="btn1">read more</Link>*/}
                     </div>
@@ -60,10 +50,9 @@ class Features extends Component {
                 <li className="rl">
                   <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
                     <div className="contents-r">
-                      <h2>Giveaways</h2>
+                      <h2>Killer Cubs Generation 2</h2>
                       <p>
-                        90 Giveaways are reserved for memebers in the whitelist.
-                        The system will randomly drop the giveaways at any time for big contributors.
+                      Featuring Little Mikey nft
                       </p>
                       {/*<Link to="#" className="btn1">read more</Link>*/}
                     </div>
@@ -75,10 +64,9 @@ class Features extends Component {
                   </Col>
                   <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
                     <div className="contents-r">
-                      <h2>Giveaways</h2>
+                      <h2>Killer Cubs Generation 2</h2>
                       <p>
-                        90 Giveaways are reserved for memebers in the whitelist. <br />
-                        The system will randomly drop the giveaways at any time for big contributors.
+                      Featuring Little Mikey nft
                       </p>
                     </div>
                   </Col>
@@ -149,7 +137,7 @@ class Features extends Component {
             <Col lg={12} md={12} sm={12} className="col-xs-12">
               <div className="section-heading2">
                 <ReactWOW animation={this.props.animate} duration="2s">
-                  <h2>Our Features</h2>
+                  <h2>OUR FEATURES</h2>
                 </ReactWOW>
               </div>
             </Col>
@@ -162,14 +150,9 @@ class Features extends Component {
                     <ReactWOW animation={this.props.animate} duration="1.6s">
                       <Col className="pd-0 hidden-xs" sm={6}>
                         <div className="contents-l mr-b30">
-                          <h2>Whitelist</h2>
+                          <h2>Killer Cubs Generation 1</h2>
                           <p>
-                            There are 450 connections for our whitelists. <br />
-                            30-40 connections will be added every day for members <br />
-                            who assist the community through Twitter, Discord, Youtube <br />
-                            and the others, until being launched.
-                            Help to spread with the word, grow the lair, <br />
-                            then have a chance to win a spot in the whitelist!
+                          Featuring Little Jay nft
                           </p>
                         </div>
                       </Col>
@@ -184,14 +167,9 @@ class Features extends Component {
                     <ReactWOW animation={this.props.animate} duration="1.6s">
                       <Col className="pd-0 visible-xs" sm={6}>
                         <div className="contents-l mr-b30">
-                          <h2>Whitelist</h2>
+                          <h2>Killer Cubs Generation 1</h2>
                           <p>
-                            There are 450 connections for our whitelists. <br />
-                            30-40 connections will be added every day for members <br />
-                            who assist the community through Twitter, Discord, Youtube <br />
-                            and the others, until being launched.
-                            Help to spread with the word, grow the lair, <br />
-                            then have a chance to win a spot in the whitelist!
+                          Featuring Little Jay nft
                           </p>
                         </div>
                       </Col>
@@ -201,11 +179,10 @@ class Features extends Component {
                     <ReactWOW animation={this.props.animate} duration="1.6s">
                       <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
                         <div className="contents-r">
-                          <h2>Giveaways</h2>
-                          <p>
-                            90 Giveaways are reserved for memebers in the whitelist.
-                            The system will randomly drop the giveaways at any time for big contributors.
-                          </p>
+                        <h2>Killer Cubs Generation 2</h2>
+                        <p>
+                        Featuring Little Mikey nft
+                        </p>
                         </div>
                       </Col>
                     </ReactWOW>
@@ -219,10 +196,9 @@ class Features extends Component {
                     <ReactWOW animation={this.props.animate} duration="1.6s">
                       <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
                         <div className="contents-r">
-                          <h2>Giveaways</h2>
+                          <h2>Killer Cubs Generation 2</h2>
                           <p>
-                            90 Giveaways are reserved for memebers in the whitelist.
-                            The system will randomly drop the giveaways at any time for big contributors.
+                          Featuring Little Mikey nft
                           </p>
                         </div>
                       </Col>

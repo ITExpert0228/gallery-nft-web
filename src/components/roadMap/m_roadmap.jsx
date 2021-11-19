@@ -13,11 +13,11 @@ class Roadmap extends Component {
               <Col lg={11} md={11} sm={12} className="col-xs-12">
                 <div className="steps-heading">
                   <h2>Roadmap Activations</h2>
-                  <span>This is a roadmap</span>
                   <div className="right-con">
                     <span>Scroll Down</span>
                     <Link to="#steps"><i className="fa fa-angle-down"></i></Link>
                   </div>
+                  <span>Sharehodler gallery NFTs present shares of the company so that everybody owned them can keep making earnings in ETH over the NFT generations released gradually.  Just 40% of total amount of gallery NFTs issued will be sold. The percentage of profits from the next-generation NFT sales launches will be allocated in proportion to the number of gallery NFTs owned by shareholders.</span>
                 </div>
               </Col>
             </Row>
@@ -31,15 +31,12 @@ class Roadmap extends Component {
                   <ul>
                     <li className="l-con">
                       <div className="cont">
-                        <h2>Killer Cubs Gen 1: Featuring "Little Jay"</h2>
+                        <h2>SHAREHOLDERS GALLERY NFTs</h2>
                         <p>(Once each phase ends, the next phase will immediately begin)</p>
-                        <p>Pre-sale: 1000 Nft's for $100 each<br/>
-                          Phase 1:  2250 Nft's for $150 each<br/>
-                          Phase 2:  2250 Nft's for $200 each<br/>
-                          Phase 3:  2250 Nft's for $250 each<br/>
-                          Phase 4:  2250 Nft's for $500 each<br/>
-
-                          Max 20 Nft's per order</p>
+                        <p>Pre-sale:  400 Share NFTs for 0.25 ETH each<br/>
+                           Phase 1:  1200 Share NFTs for 0.75 ETH each<br/>
+                           Phase 2:   400 Share NFTs for 1.00 ETH each<br/>
+                        </p>
                       </div>
                       <span><i className="fa fa-users"></i></span>
                     </li>
@@ -47,14 +44,14 @@ class Roadmap extends Component {
                       <div className="cont">
                         <h2>Step 1 </h2>
                         <p>10 ETH GIVE AWAY</p>
-                        <p>The top 10 Killer Cubs Holders will each receive 1 ETH. </p><p>(ETA on this drop is 2 weeks after the sale ends)</p>
+                        <p>The top 10 SHAREHOLDERS GALLERY NFT Holders will each receive 1 ETH. </p><p>(ETA on this drop is 2 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-check-square-o"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
                         <h2>Step 2</h2>
-                        <p>100 Random Killer Cubs will be withheld from the sale and will be randomly given out to holders who are holding 10 Killer Cubs Nft's or more.  Once the 100 Nft's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
+                        <p>100 Random SHAREHOLDERS GALLERY NFT will be withheld from the sale and will be randomly given out to holders who are holding 10 SHAREHOLDERS GALLERY NFT Nft's or more.  Once the 100 Nft's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-edit "></i></span>
                       <div className="mid-icons"></div>
@@ -62,7 +59,7 @@ class Roadmap extends Component {
                     <li className="r-con">
                       <div className="cont">
                         <h2>Step 3</h2>
-                        <p>All Killer Cubs holders holding 1 or more Killer Cubs Nft's will get a special companion; a victim cub..  Killed by "Little Jay" - (ETA on this drop will be 4 weeks after the sale ends)</p>
+                        <p>All SHAREHOLDERS GALLERY NFT holders holding 1 or more SHAREHOLDERS GALLERY NFT Nft's will get a special companion; a victim cub..  Killed by "Little Jay" - (ETA on this drop will be 4 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-university"></i></span>
                     </li>
@@ -70,7 +67,7 @@ class Roadmap extends Component {
                       <div className="cont">
                         <h2>Step 4</h2>
                         <p>5 ETH GIVE AWAY</p>
-                        <p>The top 5 Killer Cubs Holders will each receive 1 ETH.</p>
+                        <p>The top 5 SHAREHOLDERS GALLERY NFT Holders will each receive 1 ETH.</p>
                         <p>Prior holders who have already won will be excluded from this give away. (ETA on this drop will be 5 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-bell"></i></span>
@@ -92,14 +89,14 @@ class Roadmap extends Component {
                     <li className="r-con">
                       <div className="cont">
                         <h2>Step 7</h2>
-                        <p>Introduction of the Cave, the Killer Clubhouse. Hang out and kick back with your fellow Killer Cubs in the Metaverse. (ETA 9 months after the sale ends)</p>
+                        <p>Introduction of the Cave, the Killer Clubhouse. Hang out and kick back with your fellow SHAREHOLDERS GALLERY NFT in the Metaverse. (ETA 9 months after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
                         <h2>Step 8</h2>
-                        <p>Killer Cubs Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
+                        <p>SHAREHOLDERS GALLERY NFT Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>

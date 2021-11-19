@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ReactWOW from 'react-wow';
-import TokenDetails from './tokenDetails';
+import TokenDetails from './m_tokenDetails';
 
 class Tokens extends Component {
   render() {
@@ -9,7 +9,7 @@ class Tokens extends Component {
       <Row>
         <Col lg={12} md={12} sm={12} className="col-xs-12">
           <div className="section-heading2">
-            <h2>Rounds of Sale of Tokens</h2>
+            <h2>Rounds of Sale of Gallery NFT</h2>
           </div>
         </Col>
         <Col lg={10} md={9} sm={12} className="col-xs-12 col-lg-offset-1 col-md-offset-1">
@@ -17,12 +17,12 @@ class Tokens extends Component {
             <div className="tokens mr-l50">
               <div className="token-name">Pre-sale</div>
               <div className="token-body">
-                <p>Target – to Sell 1,000 NFTs</p>
-                <button className="left-btn">Price 1 NFT – $100</button>
+                <p>Target – to Sell 400 NFTs</p>
+                <button className="left-btn">Price - 0.25 ETH</button>
                 <span className="easypiechart skill-circle">
-                  <span className="percent head-font">10</span>
+                  <span className="percent head-font">20</span>
                   <br />
-                  <span className="con">Total</span>
+                  <span className="con">of Total Supply</span>
                 </span>
               </div>
             </div>
@@ -31,8 +31,8 @@ class Tokens extends Component {
             <div className="tokens mr-r50">
               <div className="token-name">Offical-Sale</div>
               <div className="token-body">
-                <p>Target – to Sell 9,000 NFTs</p>
-                <button className="right-btn">Price $150 ~ $500</button>
+                <p>Target – to Sell 1,600 NFTs</p>
+                <button className="right-btn">Price - 0.75~1 ETH</button>
                 <div className="prices">
                   <h3 className="f-20">Phases for Sale :</h3>
                   <table>
@@ -46,23 +46,13 @@ class Tokens extends Component {
                     <tbody>
                       <tr>
                         <td>1</td>
-                        <td>$150</td>
-                        <td>2,250</td>
+                        <td>0.75 ETH</td>
+                        <td>1200</td>
                       </tr>
                       <tr>
                         <td>2</td>
-                        <td>$200</td>
-                        <td>2,250</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>$250</td>
-                        <td>2,250</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>$300</td>
-                        <td>2,250</td>
+                        <td>1.00 ETH</td>
+                        <td>400</td>
                       </tr>
                     </tbody>
                   </table>
@@ -71,7 +61,7 @@ class Tokens extends Component {
             </div>
           </Col>
           <Col lg={12} md={12} sm={12} className="col-xs-12 text-center">
-            <p className="token-con">The sale of tokens It is a long established fact that a reader will be distracted by the<span> readable content of a page when looking at its layout.</span>There are many variations of passages of Lorem Ipsum available. There are many variations of passages.</p>
+            <p className="token-con">The rounds will automatically be moved to the next one by the smart contract. Holding 50 share NFTs is like that you owned 1% share of the company, so that you will make your profits in ETH as 1% of total income of sales on each NFT generations potentially released later. All of the operations will be implemented and automatically handled in the smart contracts.</p>
           </Col>
         </Col>
       </Row>

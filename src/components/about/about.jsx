@@ -11,14 +11,14 @@ class About extends Component {
         <Col lg={6} md={6} sm={12} className="col-xs-12">
           <div className="about-content">
             <h2 className="f-40 fw-400">
-              Welcome To The KILLER CUBS Yacht Club
+              Welcome To The SHAREHOLDERS GALLERY NFT Yacht Club
             </h2>
             <p>ACYC is a collection of 9,000 chimp NFTs—unique digital collectibles living on the Ethereum blockchain. </p>
             <p>Your chimp doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.</p>
             <p>There are no bonding curves here. Buying a chimp costs from 0.01 ETH to 0.04 through 4 phases / tiers. Whilelists can purchase a chimp lower price than expected at public sale. When you buy an Killer Club, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Killer Club can serve as your digital identity, and open digital doors for you.</p>
             <div className="buttons">
               <Link to="#" className="btn1">Road map</Link>
-              <Link to="#" className="btn3">Become a whitelist!</Link>
+              <Link to="#" className="btn3">Become a shareholder!</Link>
             </div>
           </div>
         </Col>
@@ -40,13 +40,13 @@ class About extends Component {
                     </h2>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.3s">
-                <p>KILLER CUBS is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.6s">
-                <p>KILLER CUBS is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.9s">
-                <p>KILLER CUBS is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
               </ReactWOW>
               <div className="buttons">
                 <Link to="#" className="btn1">WHITEPAPER</Link>

@@ -92,10 +92,10 @@ class Previews extends Component {
                 <div className="section-heading2">
                   {this.props.animate ? (
                     <ReactWOW animation={this.props.animate} duration="1s">
-                      <h2>Previews Of KILLER CUBS</h2>
+                      <h2>PREVIEWS OF SHAREHOLDER NFT</h2>
                     </ReactWOW>
                   ) : (
-                    <h2>Previews Of KILLER CUBS</h2>
+                    <h2>PREVIEWS OF SHAREHOLDER NFT</h2>
                   )}
                 </div>
               </Col>

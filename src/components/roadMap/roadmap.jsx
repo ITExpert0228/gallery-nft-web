@@ -29,7 +29,7 @@ class Roadmap extends Component {
   }
   render() {
     let titleAni = (
-      <h2>Development of KILLER CUBS Platform<br />(Road Map)</h2>
+      <h2>Development of SHAREHOLDERS GALLERY NFT Platform<br />(Road Map)</h2>
     )
     let contents = (
       <ul>
@@ -197,7 +197,7 @@ class Roadmap extends Component {
     if (this.props.animate) {
       titleAni = (
         <ReactWOW animation={this.props.animate} duration="1s">
-          <h2>Development of KILLER CUBS Platform<br />(Road Map)</h2>
+          <h2>Development of SHAREHOLDERS GALLERY NFT Platform<br />(Road Map)</h2>
         </ReactWOW>
       )
       contents = (

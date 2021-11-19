@@ -11,7 +11,7 @@ class About extends Component {
         <Col lg={6} md={6} sm={12} className="col-xs-12">
           <div className="about-content">
             <h2 className="f-40 fw-400">
-              Welcome To The KILLER CUBS
+              ABOUT SHAREHOLDERS GALLERY NFT
             </h2>
             <p>The Story as we know it...</p>
             <p>Have you heard about the legend around these parts about Little Jay?  As the story goes... Very little is known, but as far as we can gather, "Little Jay" was said to be found at the lake in a cabin next to a severed womans head.  He was visiously discarded and left there, surrounded by other negleted old toys and furniture that looked like they were there since 1971.</p>
@@ -22,7 +22,7 @@ class About extends Component {
             
             <div className="buttons">
               <Link to="#" className="btn1">Road map</Link>
-              <Link to="#" className="btn3">Become a whitelist!</Link>
+              <Link to="#" className="btn3">Become a shareholder</Link>
             </div>
           </div>
         </Col>
@@ -44,13 +44,13 @@ class About extends Component {
                     </h2>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.3s">
-                <p>KILLER CUBS is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.6s">
-                <p>KILLER CUBS is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
               </ReactWOW>
               <ReactWOW animation={this.props.animate} duration="1.9s">
-                <p>KILLER CUBS is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
+                <p>SHAREHOLDERS GALLERY NFT is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
               </ReactWOW>
               <div className="buttons">
                 <Link to="#" className="btn1">WHITEPAPER</Link>

@@ -448,3 +448,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+.steps-area .steps-heading{
+  line-height: unset!important;
+}

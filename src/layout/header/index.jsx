@@ -130,7 +130,7 @@ class Header extends Component {
                     </div>
                   </div>
                   <div id="sidebar" style={{ left: (this.state.navMenuMobile ? 0 : '-300px'), transition: 'all 0.5s linear' }}>
-                    <h1><Link to={Config.defaultPath}>KILLER CUBS</Link></h1>
+                    <h1><Link to={Config.defaultPath}>SHAREHOLDERS GALLERY NFT</Link></h1>
                     <div onClick={this.toggleNavMenu} id="toggle_close">&times;</div>
                     <div id='cssmenu' className="wd_single_index_menu">
                       {navigation}

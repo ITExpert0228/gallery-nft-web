@@ -57,20 +57,20 @@ class TokenDetails extends Component {
                 <Col sm={6}>
                   <div className="label-chatrs">
                     <div className="lsits">
-                      <span className="clabels-text">85%</span>
-                      <p>For participants of Pre-Sale and ICO</p>
+                      <span className="clabels-text">52%</span>
+                      <p>For The Company and Marketing</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">8%</span>
-                      <p>Reserved for the team.</p>
+                      <span className="clabels-text">40%</span>
+                      <p>Reserved For Sales</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">4%</span>
-                      <p>Reserved for the consultants.</p>
+                      <span className="clabels-text">6%</span>
+                      <p>Reserved For Development Team</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">3%</span>
-                      <p>Bounty campaign</p>
+                      <span className="clabels-text">2%</span>
+                      <p>Reserved For Giveaways</p>
                     </div>
                   </div>
                 </Col>
@@ -85,20 +85,20 @@ class TokenDetails extends Component {
                 <Col sm={6}>
                   <div className="label-chatrs">
                     <div className="lsits">
-                      <span className="clabels-text">85%</span>
-                      <p>For participants of Pre-Sale and ICO</p>
+                      <span className="clabels-text">52%</span>
+                      <p>For the company and marketing</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">8%</span>
-                      <p>Reserved for the team.</p>
+                      <span className="clabels-text">40%</span>
+                      <p>Reserved For Sales</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">4%</span>
-                      <p>Reserved for the consultants.</p>
+                      <span className="clabels-text">6%</span>
+                      <p>Reserved For Development Team</p>
                     </div>
                     <div className="lsits">
-                      <span className="clabels-text">3%</span>
-                      <p>Bounty campaign</p>
+                      <span className="clabels-text">2%</span>
+                      <p>Reserved For Giveaways</p>
                     </div>
                   </div>
                 </Col>
@@ -106,8 +106,8 @@ class TokenDetails extends Component {
             </OwlCarousel>
           </div>
           <div className="contents text-center">
-            <h2>The issued tokens will be distributed as follows:</h2>
-            <Link className="btn1" to="#">Download WhitePaper</Link>
+            <h2>The issued tokens will be distributed as above:</h2>
+            <Link className="btn1" to="#">Become A Shareholder</Link>
           </div>
         </Col>
       </Row>
