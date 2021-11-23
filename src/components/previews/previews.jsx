@@ -4,9 +4,6 @@ import ReactWOW from 'react-wow';
 import OwlCarousel from 'react-owl-carousel2';
 import $ from 'jquery';
 import sample1 from '../../assets/images/arts/1.png';
-import sample2 from '../../assets/images/arts/2.png';
-import sample3 from '../../assets/images/arts/3.png';
-import sample4 from '../../assets/images/arts/4.png';
 
 class Previews extends Component {
   componentDidMount() {
@@ -29,25 +26,25 @@ class Previews extends Component {
         image: sample1,
       },
       {
-        image: sample2,
-      },
-      {
-        image: sample3,
-      },
-      {
-        image: sample4,
+        image: sample1,
       },
       {
         image: sample1,
       },
       {
-        image: sample2,
+        image: sample1,
       },
       {
-        image: sample3,
+        image: sample1,
       },
       {
-        image: sample4,
+        image: sample1,
+      },
+      {
+        image: sample1,
+      },
+      {
+        image: sample1,
       }
     ];
     const options = {
@@ -107,9 +104,6 @@ class Previews extends Component {
                     <Items
                       key={i}
                       image={obj.image}
-                      title={obj.title}
-                      date={obj.date}
-                      text={obj.text}
                     />
                   ))}
                 </OwlCarousel>
