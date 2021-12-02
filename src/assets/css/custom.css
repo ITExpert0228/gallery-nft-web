@@ -16,8 +16,8 @@ body {
 }
 
 .slider-area {
-  background: rgb(2,2,2);
-  background: linear-gradient(180deg, rgba(2,2,2,1) 0%, rgba(8,9,27,1) 100%);
+  background: #ffffff;
+  color: #052743!important;
 }
 .landing-video-area {
   position: relative;
@@ -191,18 +191,7 @@ body {
   padding: 10px 35px;
   display: inline-block;
   border-radius: 50px;
-  background: rgba(57, 100, 208, 1);
-  background: -webkit-gradient(
-  left top,
-  right top,
-  color-stop(0%, rgba(57, 100, 208, 1)),
-  color-stop(100%, rgba(45, 193, 201, 1))
-);
-  background: linear-gradient(
-  to right,
-  rgba(57, 100, 208, 1) 0%,
-  rgba(45, 193, 201, 1) 100%
-);
+  background: #052743;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -214,7 +203,7 @@ body {
 }
 
 #clockdiv, #clockdiv2 {
-  color: #fff;
+  color: #052743;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -224,6 +213,7 @@ body {
 
 .slider-area .slider-content h2 {
   margin: 1px 0 5px;
+  color: #052743;
 }
 
 .slider a.previousButton, .slider a.nextButton {
@@ -231,7 +221,7 @@ body {
   display: none;
 }
 .slider {
-  height: 235px;
+  height: 150px;
 }
 
 
@@ -447,4 +437,12 @@ body {
 .tokens-area .tokens .token-body .prices table {
   margin: 0 auto;
   text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-first {
+  color: #052743;
 }

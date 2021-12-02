@@ -7,6 +7,7 @@ import sample1 from '../../assets/images/arts/1.png';
 import sample2 from '../../assets/images/arts/2.png';
 import sample3 from '../../assets/images/arts/3.png';
 import sample4 from '../../assets/images/arts/4.png';
+import sample5 from '../../assets/images/arts/5.png';
 
 class Previews extends Component {
   componentDidMount() {
@@ -26,28 +27,28 @@ class Previews extends Component {
   render() {
     const data = [
       {
-        image: sample1,
+        image: sample5,
       },
       {
-        image: sample2,
+        image: sample5,
       },
       {
-        image: sample3,
+        image: sample5,
       },
       {
-        image: sample4,
+        image: sample5,
       },
       {
-        image: sample1,
+        image: sample5,
       },
       {
-        image: sample2,
+        image: sample5,
       },
       {
-        image: sample3,
+        image: sample5,
       },
       {
-        image: sample4,
+        image: sample5,
       }
     ];
     const options = {
@@ -86,16 +87,16 @@ class Previews extends Component {
     return (
       <div id="news" className="wd_scroll_wrap wd_scroll">
         <section className="blog-area section">
-          <Container>
+          <Container className=" pd-t100 pd-b100">
             <Row>
               <Col lg={12} md={12} sm={12} className="col-xs-12">
                 <div className="section-heading2">
                   {this.props.animate ? (
                     <ReactWOW animation={this.props.animate} duration="1s">
-                      <h2>Previews Of KILLER CUBS</h2>
+                      <h2 className="text-first">PREVIEWS OF SHAREHOLDERS GALLERY NFT'S</h2>
                     </ReactWOW>
                   ) : (
-                    <h2>Previews Of KILLER CUBS</h2>
+                    <h2 className="text-first">PREVIEWS OF SHAREHOLDERS GALLERY NFT'S</h2>
                   )}
                 </div>
               </Col>

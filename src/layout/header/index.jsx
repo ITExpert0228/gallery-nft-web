@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
-//import logo from '../../assets/images/logo/logo.png';
+import logo from '../../assets/images/logo/logo.png';
 //import flag from '../../assets/images/icons/12.png';
 import Config from '../../configure';
 import $ from 'jquery';
@@ -81,12 +81,12 @@ class Header extends Component {
     return (
       <div id="default" className="wd_scroll_wrap wd_scroll">
         <header className={`gc_main_menu_wrapper ${this.state.scroll > this.state.top ? "menu_fixed animated fadeInDown" : ""}`}>
-          <Container fluid>
+          <Container>
             <Row>
               <Col className="col-xs-6" sm={12} md={3} lg={3}>
                 <div className="logo-area">
                   <Link to={Config.defaultPath}>
-                    {/* <img src={logo} alt="logo" /> */}
+                    { <img src={logo} alt="logo" width={250} height={40}/> }
                   </Link>
                 </div>
               </Col>

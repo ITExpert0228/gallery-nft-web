@@ -13,17 +13,21 @@ class M_HomePage extends Component {
     return (
       <Fragment>
         <div className="wd_scroll_wrap">
+          <div style={{"padding-top":"52px", "background": "#052743"}}></div>
+          <div style={{"padding-top":"8px", "background": "#F2D969"}}></div>
           <MainSlider />
-          <About fill="#10122d" />
+          <div style={{"padding-top":"25px", "background": "#F2D969"}}></div>
+          <About />
         </div>
         <div className="wd_scroll_wrap">
             <Previews />
         </div>
-        <Features animate='shakeX' />
-        <Roadmap fill="#10122d" />
         <div className="wd_scroll_wrap">
           <Tokens />
-          <Teams fill="#10122d" />
+        </div>
+        <Roadmap />
+        <div className="wd_scroll_wrap">
+          <Teams />
         </div>
         <Faqs />
       </Fragment>

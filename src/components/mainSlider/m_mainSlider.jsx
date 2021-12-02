@@ -79,7 +79,7 @@ class MainSlider extends Component {
     const data = [
       {
         title: "LAUNCHING",
-        btn1: 'Become a Whitelist!',
+        btn1: 'BE A SHAREHOLDER!',
         // btn2: 'Become a Whitelist!'
       },
       // {

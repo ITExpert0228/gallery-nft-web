@@ -377,7 +377,6 @@ h4 {
 .section-heading2 h2 {
   font-size: 40px;
   font-weight: 400;
-  color: #fff;
 }
 @media only screen and (max-width: 768px) {
   .section-heading2 h2 {
@@ -486,38 +485,7 @@ h4 {
   line-height: 50px;
   height: 50px;
   border-radius: 50px;
-  background: rgba(57, 100, 208, 1);
-  background: -moz-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right top,
-    color-stop(0%, rgba(57, 100, 208, 1)),
-    color-stop(100%, rgba(45, 193, 201, 1))
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
+  background: #052743;
   padding: 0 35px;
   font-weight: 700;
   color: #ffffff;
@@ -623,6 +591,32 @@ h4 {
     rgba(45, 193, 201, 1) 0%,
     rgba(57, 100, 208, 1) 100%
   );
+  color: #fff;
+}
+
+.btnGold {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #F2D969;
+  padding: 0 35px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  animation-delay: 2.4s;
+}
+@media only screen and (max-width: 480px) {
+  .btnGold {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 13px;
+    border: 2px solid #3d3f69;
+  }
+}
+.btnGold:hover {
+  background: #2c2e53;
   color: #fff;
 }
 
@@ -1726,7 +1720,7 @@ align-items: center;
 ....................................*/
 header {
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -1755,7 +1749,7 @@ header .menu-area nav ul li:first-child {
 }
 header .menu-area nav ul li a {
   display: inline-block;
-  color: #fff;
+  color: #052743;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1888,7 +1882,7 @@ header .mobilemenu .mean-container a.meanmenu-reveal {
   right: 0 !important;
   top: 0 !important;
   z-index: 100000 !important;
-  background: #0a0c23;
+  background: #ffffff;
 }
 .rp_mobail_menu_main_wrapper {
   float: none;
@@ -2042,7 +2036,7 @@ ul ul > li.has-sub > a:before {
 .slider-area {
   display: block;
   position: relative;
-  background: #0b0c22;
+  background: #FFF;
 }
 .slider-area .carousel {
   padding: 30vh 0 40vh;
@@ -2586,15 +2580,15 @@ ul ul > li.has-sub > a:before {
   }
 }
 .about-area .about-img {
-  margin-right: -150px;
+  /*margin-right: -150px;*/
 }
 .about-area {
-  background: #08091b;
+  background: #052743;
 }
 @media only screen and (max-width: 1600px) {
   .about-area .about-img {
-    margin-right: -100px;
-    margin-top: 50px;
+    /*margin-right: -100px;
+    margin-top: 50px;*/
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -2610,7 +2604,7 @@ ul ul > li.has-sub > a:before {
 7. Blog area start here
 ....................................*/
 .blog-area {
-  background: #10122d;
+  background: #F2D969;
   position: relative;
   display: block;
 }
@@ -3908,53 +3902,21 @@ footer .footer-top .con ul li a:hover {
 }
 .tokens-area .tokens .token-name {
   display: inline-block;
-  color: #fff;
-  background: rgba(57, 100, 208, 1);
-  background: -moz-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right top,
-    color-stop(0%, rgba(57, 100, 208, 1)),
-    color-stop(100%, rgba(45, 193, 201, 1))
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -o-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    left,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(57, 100, 208, 1) 0%,
-    rgba(45, 193, 201, 1) 100%
-  );
+  color: #052743;
+  background: #ffffff;
   line-height: 42px;
   height: 42px;
   padding: 0 45px;
   border-radius: 15px 15px 0 0;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: 900;
   position: relative;
   z-index: 999;
 }
 .tokens-area .tokens .token-body {
-  background: #08091b;
+  background: #F2D969;
   height: 464px;
-  padding: 50px 55px;
+  padding: 90px 55px;
   display: inline-block;
   border-radius: 22px;
   position: relative;
@@ -3969,13 +3931,13 @@ footer .footer-top .con ul li a:hover {
   display: inline-block;
   height: 60px;
   line-height: 54px;
-  padding: 0 45px;
+  padding: 0 20px;
   border-radius: 50px;
   border: 3px solid #5e619c;
   font-size: 20px;
   font-weight: 900;
   color: #ffffff;
-  background: transparent;
+  background: #052743;
 }
 .tokens-area .tokens .token-body .right-btn {
   display: inline-block;
@@ -4232,6 +4194,7 @@ footer .footer-top .con ul li a:hover {
   height: 150px;
   padding-top: 48px;
   border-radius: 100%;
+  background: #052743;
 }
 .easypiechart .percent {
   text-align: center;
@@ -5605,7 +5568,7 @@ body.date-20180212.exp-invert-logo {
 ....................................*/
 .slider-area {
   position: relative;
-  background: #08091b;
+  background: #FFF;
 }
 canvas {
   position: absolute;

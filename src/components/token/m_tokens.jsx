@@ -9,69 +9,51 @@ class Tokens extends Component {
       <Row>
         <Col lg={12} md={12} sm={12} className="col-xs-12">
           <div className="section-heading2">
-            <h2>Rounds of Sale of Tokens</h2>
+            <h2 className="text-white">GALLERY NFT SALE: 3 PHASES</h2>
           </div>
         </Col>
-        <Col lg={10} md={9} sm={12} className="col-xs-12 col-lg-offset-1 col-md-offset-1">
-          <Col lg={6} md={6} sm={6} className="col-xs-12 text-right">
-            <div className="tokens mr-l50">
-              <div className="token-name">Pre-sale</div>
+        <Col lg={12} md={12} sm={12} className="col-xs-12">
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
+            <div className="tokens">
+              <div className="token-name">Pre-Sale</div>
               <div className="token-body">
-                <p>Target – to Sell 1,000 NFTs</p>
-                <button className="left-btn">Price 1 NFT – $100</button>
+                <button className="left-btn">Price $500 Per NFT</button>
                 <span className="easypiechart skill-circle">
-                  <span className="percent head-font">10</span>
+                  <span className="percent head-font">20</span>
                   <br />
-                  <span className="con">Total</span>
+                  <span className="con">of Total Supply</span>
                 </span>
               </div>
             </div>
           </Col>
-          <Col lg={6} md={6} sm={6} className="col-xs-12 text-right">
-            <div className="tokens mr-r50">
-              <div className="token-name">Offical-Sale</div>
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
+            <div className="tokens">
+              <div className="token-name">Phase1</div>
               <div className="token-body">
-                <p>Target – to Sell 9,000 NFTs</p>
-                <button className="right-btn">Price $150 ~ $500</button>
-                <div className="prices">
-                  <h3 className="f-20">Phases for Sale :</h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Phase</th>
-                        <th>Price</th>
-                        <th>Count</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>$150</td>
-                        <td>2,250</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>$200</td>
-                        <td>2,250</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>$250</td>
-                        <td>2,250</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>$300</td>
-                        <td>2,250</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                <button className="left-btn">Price $1000 Per NFT</button>
+                <span className="easypiechart skill-circle">
+                  <span className="percent head-font">60</span>
+                  <br />
+                  <span className="con">of Total Supply</span>
+                </span>
+              </div>
+            </div>
+          </Col>
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
+            <div className="tokens">
+              <div className="token-name">Final Phase</div>
+              <div className="token-body">
+                <button className="left-btn">Price $1500 Per NFT</button>
+                <span className="easypiechart skill-circle">
+                  <span className="percent head-font">20</span>
+                  <br />
+                  <span className="con">of Total Supply</span>
+                </span>
               </div>
             </div>
           </Col>
           <Col lg={12} md={12} sm={12} className="col-xs-12 text-center">
-            <p className="token-con">The sale of tokens It is a long established fact that a reader will be distracted by the<span> readable content of a page when looking at its layout.</span>There are many variations of passages of Lorem Ipsum available. There are many variations of passages.</p>
+            <p className="token-con">During the Pre-sale, Phase 1 and Final Phase you can save even more by buying in bulk. When you buy 5 Nft's you get 10% discount. Buy 10 Nft's, you get 15% discount. Buy 25 Nft's get a 25% discount</p>
           </Col>
         </Col>
       </Row>
@@ -159,7 +141,6 @@ class Tokens extends Component {
             {contents}
           </Container>
         </section>
-        <TokenDetails animate={this.props.animate} />
       </div>
     );
   }
