@@ -3,13 +3,17 @@
 html,
 body {
   font-size: 16px;
-  color: #8486a6;
-  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-family: Bahnschrift;
   vertical-align: baseline;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: bold;
   overflow-x: hidden;
-  background: #10122d;
+  background: #052743;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: Bahnschrift;
+  font-weight: bold;
 }
 .menu-area .menu-navs {
   display: inline-block;
@@ -236,9 +240,9 @@ body {
   right: 34px;
   top: 0;
   bottom: 0;
-  border-right: 2px solid #3297cc;
-  border-top: 2px solid #3297cc;
-  border-bottom: 2px solid #3297cc;
+  border-right: 2px solid #052743;
+  border-top: 2px solid #052743;
+  border-bottom: 2px solid #052743;
   border-radius: 0 10px 10px 0;
 }
 .steps-details .steps-cont ul li:nth-child(4):before {
@@ -265,7 +269,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(4) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(4) .cont p {
   margin: 0;
@@ -277,7 +281,7 @@ body {
   height: 70px;
   line-height: 66px;
   border: 2px solid #5e619c;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
   font-size: 30px;
   border-radius: 100%;
@@ -304,7 +308,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(5) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(5) .cont p {
   margin: 0;
@@ -312,7 +316,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(5) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
@@ -332,7 +336,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(6) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(6) .cont p {
   margin: 0;
@@ -340,7 +344,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(6) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
@@ -361,7 +365,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(7) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(7) .cont p {
   margin: 0;
@@ -369,7 +373,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(7) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
@@ -389,7 +393,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(8) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(8) .cont p {
   margin: 0;
@@ -397,7 +401,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(8) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
@@ -417,7 +421,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(9) .cont h2 {
   margin: 0 0 5px;
   font-weight: 400;
-  color: #3297cc;
+  color: #052743;
 }
 .steps-details .steps-cont ul li:nth-child(9) .cont p {
   margin: 0;
@@ -425,7 +429,7 @@ body {
 .steps-details .steps-cont ul li:nth-child(9) span {
   line-height: 66px;
   border: 2px solid #8486a6;
-  background: #0b0c22;
+  background: #052743;
   color: #ffffff;
 }
 @media only screen and (max-width: 480px) {

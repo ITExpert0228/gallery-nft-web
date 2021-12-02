@@ -20,14 +20,14 @@ class HomePage extends Component {
           <MainSlider />
           <Currency />
         </div>
-        <About fill="#10122d" />
+        <About fill="#052743" />
         <Features />
         <Projects />
-        <Steps fill="#10122d" />
-        <Roadmap fill="#10122d" />
+        <Steps fill="#052743" />
+        <Roadmap fill="#052743" />
         <div className="wd_scroll_wrap">
           <Tokens />
-          <Teams fill="#10122d" />
+          <Teams fill="#052743" />
         </div>
         <Blogs />
         <div className="wd_scroll_wrap">

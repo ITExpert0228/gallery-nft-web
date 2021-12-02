@@ -13,10 +13,10 @@ class M_HomePage extends Component {
     return (
       <Fragment>
         <div className="wd_scroll_wrap">
-          <div style={{"padding-top":"52px", "background": "#052743"}}></div>
-          <div style={{"padding-top":"8px", "background": "#F2D969"}}></div>
+          <div style={{"paddingTop":"52px", "background": "#052743"}}></div>
+          <div style={{"paddingTop":"8px", "background": "#F2D969"}}></div>
           <MainSlider />
-          <div style={{"padding-top":"25px", "background": "#F2D969"}}></div>
+          <div style={{"paddingTop":"25px", "background": "#F2D969"}}></div>
           <About />
         </div>
         <div className="wd_scroll_wrap">

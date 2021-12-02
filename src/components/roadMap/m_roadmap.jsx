@@ -7,101 +7,82 @@ class Roadmap extends Component {
   render() {
     let contents = (
       <React.Fragment>
-        <section className="steps-area section">
+        <section className="steps-details pd-t70">
           <Container>
             <Row>
-              <Col lg={11} md={11} sm={12} className="col-xs-12">
-                <div className="steps-heading">
-                  <h2>Roadmap Activations</h2>
-                  <span>This is a roadmap</span>
-                  <div className="right-con">
-                    <span>Scroll Down</span>
-                    <Link to="#steps"><i className="fa fa-angle-down"></i></Link>
-                  </div>
+              <Col lg={12} md={12} sm={12} className="col-xs-12">
+                <div className="section-heading2">
+                  <h2 className="text-first">ROAD MAP</h2>
                 </div>
               </Col>
-            </Row>
-          </Container>
-        </section>
-        <section className="steps-details">
-          <Container>
-            <Row>
               <Col lg={10} md={10} sm={12} className="col-xs-12 col-md-offset-1 col-lg-offset-1">
                 <div className="steps-cont">
                   <ul>
                     <li className="l-con">
+                      <span><i className="fa fa-angle-down"></i></span>
                       <div className="cont">
-                        <h2>Killer Cubs Gen 1: Featuring "Little Jay"</h2>
-                        <p>(Once each phase ends, the next phase will immediately begin)</p>
-                        <p>Pre-sale: 1000 Nft's for $100 each<br/>
-                          Phase 1:  2250 Nft's for $150 each<br/>
-                          Phase 2:  2250 Nft's for $200 each<br/>
-                          Phase 3:  2250 Nft's for $250 each<br/>
-                          Phase 4:  2250 Nft's for $500 each<br/>
-
-                          Max 20 Nft's per order</p>
+                        <p>Shareholders Gallery will be selling 40% of the company in the form of an NFT. There will be a limited amount of Nft's available all in total equaling 40$</p>
+                        <p>There will be a total of 2000 Shareholders Gallery Nft's sold<br/>
+                          Pre-sale:  400 Nft's - $500 each<br/>
+                          Phase 1:  1200 Nft's - $1000 each<br/>
+                          Final Phase:  400 Nft's - $1500 each</p>
+                        <p>1 NFT is equal to 0.02% ownership of Shareholders Gallery.<br />
+                        50 NFT's equal 1% ownership of Shareholders Gallery.</p>
                       </div>
-                      <span><i className="fa fa-users"></i></span>
+                      <span className="first"><i className="fa fa-users"></i></span>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <h2>Step 1 </h2>
                         <p>10 ETH GIVE AWAY</p>
-                        <p>The top 10 Killer Cubs Holders will each receive 1 ETH. </p><p>(ETA on this drop is 2 weeks after the sale ends)</p>
+                        <p>We will give 50 random nft holders 0.2 Eth each. Just for holding 1 or more Shareholders Gallery Nft's.<br/>
+                        (ETA on this drop is 2 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-check-square-o"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
-                        <h2>Step 2</h2>
-                        <p>100 Random Killer Cubs will be withheld from the sale and will be randomly given out to holders who are holding 10 Killer Cubs Nft's or more.  Once the 100 Nft's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
+                        <p>20 Nft's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholder Gallery Nft's. Once the 20 Nft's are depleted the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-edit "></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <h2>Step 3</h2>
-                        <p>All Killer Cubs holders holding 1 or more Killer Cubs Nft's will get a special companion; a victim cub..  Killed by "Little Jay" - (ETA on this drop will be 4 weeks after the sale ends)</p>
+                        <p>5 ETH GIVE AWAY<br/>Top 25 people who help build our community via Discord, Twitter etc. will receive 0.2 Eth each. (ETA on this drop will be 5 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-university"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
-                        <h2>Step 4</h2>
-                        <p>5 ETH GIVE AWAY</p>
-                        <p>The top 5 Killer Cubs Holders will each receive 1 ETH.</p>
-                        <p>Prior holders who have already won will be excluded from this give away. (ETA on this drop will be 5 weeks after the sale ends)</p>
+                        <p>Launch of Killer Cubs Generation 1 Featuring "Little Jay"<br/>
+                        (ETA 2.22.2022)</p>
                       </div>
-                      <span><i className="fa fa-bell"></i></span>
+                      <span><i className="fa fa-edit"></i></span>
+                      <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <h2>Step 5</h2>
-                        <p>A Comic Book and story line specificly about Little Jay along with his vitims and how it all began... (ETA 4 months after the sale ends)</p>
+                        <p>Launch Killer Cubs Generation 2 Featuring "Little Mikey" (ETA 5.22.2022)</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fa fa-university"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
-                        <h2>Step 6</h2>
-                        <p>It gets cold during hybernation period. Merch release. (ETA 6 months after the sale ends)</p>
+                        <p>Launch Killer Cubs Generation 3 Featuring "Little LeatherFace" (ETA 8.22.2022)</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fa fa-edit"></i></span>
+                      <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <h2>Step 7</h2>
-                        <p>Introduction of the Cave, the Killer Clubhouse. Hang out and kick back with your fellow Killer Cubs in the Metaverse. (ETA 9 months after the sale ends)</p>
+                        <p>Introduction of the Shareholder Gallery Clubhouse. Hang out and kick back with your fellow Shareholder Gallery Members in the Metaverse. (ETA 9~12 months after the sale ends)</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fa fa-university"></i></span>
                     </li>
                     <li className="l-con">
                       <div className="cont">
-                        <h2>Step 8</h2>
-                        <p>Killer Cubs Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fa fa-edit"></i></span>
                     </li>
                   </ul>
                 </div>
