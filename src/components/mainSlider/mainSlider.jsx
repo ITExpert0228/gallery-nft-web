@@ -76,7 +76,7 @@ class MainSlider extends Component {
   render() {
     const data = [
       {
-        title: "SHAREHOLDERS GALLERY NFT - DApp for Amazing NFT sales",
+        title: "KILLER CUBS - DApp for Amazing NFT sales",
         btn1: 'Road Map',
         btn2: 'Become a Whitelist!'
       },

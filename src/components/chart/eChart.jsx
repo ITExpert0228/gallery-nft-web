@@ -21,17 +21,17 @@ class EChartOne extends Component {
       },
       legend: {
         data: [{
-          value: 2600,
-          name: 'Company'
+          value: 1945,
+          name: ''
         }, {
-          value: 2000,
-          name: 'Sales'
+          value: 2580,
+          name: ''
         }, {
-          value: 300,
-          name: 'Development'
+          value: 5160,
+          name: ''
         }, {
-          value: 100,
-          name: 'Giveaways'
+          value: 54826,
+          name: ''
         }]
       },
       series: [{
@@ -45,17 +45,17 @@ class EChartOne extends Component {
           }
         },
         data: [{
-          value: 2600,
-          name: 'Company'
+          value: 1945,
+          name: ''
         }, {
-          value: 2000,
-          name: 'Sales'
+          value: 2580,
+          name: ''
         }, {
-          value: 300,
-          name: 'Development'
+          value: 5160,
+          name: ''
         }, {
-          value: 100,
-          name: 'Giveaways'
+          value: 54826,
+          name: ''
         }]
       }
       ]

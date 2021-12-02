@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
-//import logo from '../../assets/images/logo/logo.png';
+import logo from '../../assets/images/logo/logo.png';
 //import flag from '../../assets/images/icons/12.png';
 import Config from '../../configure';
 import $ from 'jquery';
@@ -72,25 +72,28 @@ class Header extends Component {
       <ul>
         <li><a className="nav-link" href="#default">Home</a></li>
         <li><a className="nav-link" href="#about">About</a></li>
-        <li><a className="nav-link" href="#features">Features</a></li>
+        <li><a className="nav-link" href="#">Features</a></li>
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
-        <li><a className="nav-link" href="#faq">Faqs</a></li>
+        <li><a className="nav-link" href="#faq">FAQS</a></li>
       </ul>
     )
     return (
       <div id="default" className="wd_scroll_wrap wd_scroll">
+        <div className="header-top bg-primary"></div>
+        <div className="horizon-divider bg-secondary"></div>
+
         <header className={`gc_main_menu_wrapper ${this.state.scroll > this.state.top ? "menu_fixed animated fadeInDown" : ""}`}>
           <Container fluid>
-            <Row>
-              <Col className="col-xs-6" sm={12} md={3} lg={3}>
-                <div className="logo-area">
+            <Row className="d-flex align-items-center">
+              <Col className="col-xs-6" sm={3} md={3} lg={3}>
+                <div className="logo-area pd-l40">
                   <Link to={Config.defaultPath}>
-                    {/* <img src={logo} alt="logo" /> */}
+                    <img src={logo} alt="logo" />
                   </Link>
                 </div>
               </Col>
-              <Col className="col-xs-6 menu-area" sm={12} md={9} lg={9}>
+              <Col className="col-xs-6 menu-area d-sm-flex justify-content-end" sm={9} md={9} lg={9}>
                 <div className="menu-navs hidden-xs">
                   <nav className="wd_single_index_menu btc_main_menu">
                     {navigation}
@@ -130,7 +133,7 @@ class Header extends Component {
                     </div>
                   </div>
                   <div id="sidebar" style={{ left: (this.state.navMenuMobile ? 0 : '-300px'), transition: 'all 0.5s linear' }}>
-                    <h1><Link to={Config.defaultPath}>SHAREHOLDERS GALLERY NFT</Link></h1>
+                    <h1><Link to={Config.defaultPath}>KILLER CUBS</Link></h1>
                     <div onClick={this.toggleNavMenu} id="toggle_close">&times;</div>
                     <div id='cssmenu' className="wd_single_index_menu">
                       {navigation}

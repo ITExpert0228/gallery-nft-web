@@ -79,7 +79,7 @@ class MainSlider extends Component {
     const data = [
       {
         title: "LAUNCHING",
-        btn1: 'Be a Shareholder!',
+        btn1: 'BE A SHAREHOLDER!',
         // btn2: 'Become a Whitelist!'
       },
       // {
@@ -99,7 +99,7 @@ class MainSlider extends Component {
           <Row>
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="slider-content">
-                <h2>{obj.title}</h2>
+                <h2 className="text-primary">{obj.title}</h2>
                 {/* <ul>
                   <li className="slider_social_icon1">
                     <Link to="#"><i className="fa fa-facebook"></i></Link>
@@ -162,12 +162,12 @@ class MainSlider extends Component {
           this.mount = mount;
         }}>
         </div> */}
-        <section className="landing-video-area section">
+        <section className="landing-video-area section pt-0">
           <Container>
             <Row>
               <Col lg={12} md={12} sm={12} className="col-xs-12">
                 <div className="videos-heding">
-                  <div className="videos-box">
+                  <div className="videos-box border border-6 border-primary">
                     <VideoPlayer { ...videoJsOptions } />
                   </div>
                 </div>
@@ -179,12 +179,13 @@ class MainSlider extends Component {
         {/* <div style={{marginTop: "200px"}}> */}
         
         
-        <div className="carousel">
+        <div className="carousel bg-white">
           <Slider autoplay duration={3000} >
             {Items}
           </Slider>
         </div>
 
+        <div className="horizon-divider bg-secondary" style={{ height: '25px' }}></div>
       </div>
     );
   }

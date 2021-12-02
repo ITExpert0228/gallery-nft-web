@@ -16,12 +16,12 @@ class Footer extends Component {
           <div className="footer-bottom">
             <Container>
               <Row>
-                <Col lg={12} md={12} sm={12} className="col-xs-12">
+                <Col lg={6} md={6} sm={12} className="col-xs-12">
                   <div className="copyright">
-                    <p>© {this.year - 1} - {this.year} <Link to="#"><span>SHAREHOLDERS GALLERY NFT</span></Link> | All rights  reserved </p>
+                    <p>© {this.year - 1} - {this.year} <Link to="#"><span>KILLER CUBS</span></Link> | All rights reserved. Design by <Link to="#"><span>Awesome</span></Link></p>
                   </div>
                 </Col>
-                <Col lg={12} md={12} sm={12} className="col-xs-12">
+                <Col lg={6} md={6} sm={12} className="col-xs-12">
                   <div className="foo-link">
                     <ul>
                       {/* <li><Link to="#">WhitePaper</Link></li>

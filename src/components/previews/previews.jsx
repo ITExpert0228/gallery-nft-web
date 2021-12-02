@@ -30,29 +30,14 @@ class Previews extends Component {
       },
       {
         image: sample1,
-      },
-      {
-        image: sample1,
-      },
-      {
-        image: sample1,
-      },
-      {
-        image: sample1,
-      },
-      {
-        image: sample1,
-      },
-      {
-        image: sample1,
       }
     ];
     const options = {
       slideSpeed: 500,
       autoplay: true,
-      rewind: true,
+      reWind: true,
       margin: 0,
-      nav: true,
+      nav: false,
       dots: false,
       navText: [
         '<i class="fa fa-angle-left"></i>',
@@ -82,17 +67,17 @@ class Previews extends Component {
 
     return (
       <div id="news" className="wd_scroll_wrap wd_scroll">
-        <section className="blog-area section">
+        <section className="blog-area section pd-t150 pd-b150">
           <Container>
             <Row>
               <Col lg={12} md={12} sm={12} className="col-xs-12">
                 <div className="section-heading2">
                   {this.props.animate ? (
                     <ReactWOW animation={this.props.animate} duration="1s">
-                      <h2>PREVIEWS OF SHAREHOLDER NFT</h2>
+                      <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
                     </ReactWOW>
                   ) : (
-                    <h2>PREVIEWS OF SHAREHOLDER NFT</h2>
+                    <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
                   )}
                 </div>
               </Col>
@@ -104,6 +89,9 @@ class Previews extends Component {
                     <Items
                       key={i}
                       image={obj.image}
+                      title={obj.title}
+                      date={obj.date}
+                      text={obj.text}
                     />
                   ))}
                 </OwlCarousel>

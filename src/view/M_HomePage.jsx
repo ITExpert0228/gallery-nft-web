@@ -6,7 +6,9 @@ import Tokens from '../components/token/m_tokens';
 import MainSlider from '../components/mainSlider/m_mainSlider';
 import Teams from '../components/team/m_team';
 import Previews from '../components/previews/previews';
+import Info from '../components/info/info';
 import Faqs from '../components/faq/faqs';
+import Gallery from '../components/gallery/gallery';
 
 class M_HomePage extends Component {
   render() {
@@ -14,18 +16,22 @@ class M_HomePage extends Component {
       <Fragment>
         <div className="wd_scroll_wrap">
           <MainSlider />
-          <About fill="#f1f1f4" />
+          <About fill="#10122d" />
         </div>
-        <div className="wd_scroll_wrap">
+        <div className="wd_scroll_wrap bg-secondary">
             <Previews />
         </div>
-        <Features animate='shakeX' />
-        <Roadmap fill="#f1f1f4" />
+
         <div className="wd_scroll_wrap">
           <Tokens />
-          <Teams fill="#f1f1f4" />
         </div>
+
+        <Roadmap fill="#10122d" />
+
         <Faqs />
+        <Info />
+        <Gallery/>
+
       </Fragment>
     );
   }
