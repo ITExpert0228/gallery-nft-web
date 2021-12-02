@@ -26,9 +26,6 @@ class M_HomePage extends Component {
           <Tokens />
         </div>
         <Roadmap />
-        <div className="wd_scroll_wrap">
-          <Teams />
-        </div>
         <Faqs />
       </Fragment>
     );
