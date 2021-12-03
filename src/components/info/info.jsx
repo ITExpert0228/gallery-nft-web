@@ -21,19 +21,19 @@ class Info extends Component {
               <Col lg={7} md={12} sm={12} className="col-xs-12">
                 <Col lg={12} md={12} sm={12} className="col-xs-12 pd-b30">
                   <figure className="d-flex justify-content-center">
-                    <img src={sample1} alt="image" className="mx-sm-500" />
+                    <img src={sample1} alt="nft" className="mx-sm-500" />
                   </figure>
                 </Col>
 
                 <Col lg={6} md={6} sm={6} className="col-xs-12">
                   <figure>
-                    <img src={sample2} alt="image" />
+                    <img src={sample2} alt="nft" />
                   </figure>
                 </Col>
 
                 <Col lg={6} md={6} sm={6} className="col-xs-12">
                   <figure>
-                    <img src={sample3} alt="image" />
+                    <img src={sample3} alt="nft" />
                   </figure>
                 </Col>
               </Col>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ReactWOW from 'react-wow';
 import OwlCarousel from 'react-owl-carousel2';
-import TokenDetails from './tokenDetails';
 
 class Tokens extends Component {
   render() {
