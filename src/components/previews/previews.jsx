@@ -75,10 +75,10 @@ class Previews extends Component {
                 <div className="section-heading2">
                   {this.props.animate ? (
                     <ReactWOW animation={this.props.animate} duration="1s">
-                      <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
+                      <h2 className="text-primary fw-800">PREVIEWS OF SHAREHOLDERS GALLERY NFTS</h2>
                     </ReactWOW>
                   ) : (
-                    <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
+                    <h2 className="text-primary fw-800">PREVIEWS OF SHAREHOLDERS GALLERY NFTS</h2>
                   )}
                 </div>
               </Col>

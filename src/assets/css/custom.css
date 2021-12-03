@@ -612,8 +612,12 @@ header {
   height: auto;
 }
 
-.card-header 	a {
+.card-header a {
   color: #FFF;
+}
+
+.card.card-accordion .card-header .toggle-button {
+  color: #fff;
 }
 
 .card-header:hover::after .toggle-button,

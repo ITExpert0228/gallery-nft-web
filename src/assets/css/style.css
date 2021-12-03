@@ -2595,15 +2595,11 @@ ul ul > li.has-sub > a:before {
     margin: 0;
   }
 }
-.about-area .about-img {
-  margin-right: -150px;
-}
 .about-area {
   background: #052743;
 }
 @media only screen and (max-width: 1600px) {
   .about-area .about-img {
-    margin-right: -100px;
     margin-top: 50px;
   }
 }

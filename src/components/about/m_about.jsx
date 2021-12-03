@@ -9,7 +9,7 @@ class About extends Component {
   render() {
     let page = (
       <Row>
-        <Col lg={6} md={6} sm={12} className="col-xs-12">
+        <Col lg={5} md={6} sm={12} className="col-xs-12">
           <div className="about-content">
             <h2 className="f-40">
               ABOUT SHAREHOLDERS GALLERY
@@ -24,14 +24,9 @@ class About extends Component {
             <p className="text-white fw-800 mb-0">2. Residules when sold Nft's are re-sold</p>
             <p className="text-white fw-800 mb-0">3. All merchanidise sold by Shareholders Gallery</p>
             <p className="text-white fw-800 mb-0">4. Growing value of the Nft's</p>
-
-            <div className="buttons">
-              <Link to="#" className="btn1">Road map</Link>
-              <Link to="#" className="btn3">Become a whitelist!</Link>
-            </div>
           </div>
         </Col>
-        <Col lg={6} md={6} sm={12} className="col-xs-12">
+        <Col lg={7} md={6} sm={12} className="col-xs-12">
           <div className="about-img hover-effect-3d">
             <div>
               <img id="atvimg_3198967185336128" src={aboutimg} element="Image3DComponent" alt="about" />
