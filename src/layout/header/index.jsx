@@ -75,7 +75,7 @@ class Header extends Component {
         <li><a className="nav-link" href="#features">Features</a></li>
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
-        <li><a className="nav-link" href="#faq">Faqs</a></li>
+        <li><a className="nav-link" href="#faq">FAQS</a></li>
       </ul>
     )
     return (
