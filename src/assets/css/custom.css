@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900");
+@import url("https://fonts.googleapis.com/css?family=Bahnschrift:300,300i,400,400i,700,700i,900");
 
 html,
 body {
   font-size: 16px;
   color: #8486a6;
-  font-family: "Lato", sans-serif;
+  font-family: "Bahnschrift", sans-serif;
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
@@ -554,6 +554,10 @@ header {
   justify-content: center !important;
 }
 
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
 .justify-content-end {
   justify-content: end !important;
 }
@@ -647,6 +651,7 @@ header {
   margin-bottom: .4rem;
   padding: 1.3rem 0 1.3rem 22px;
   letter-spacing: 0;
+  color: #fff;
 }
 
 .card.card-accordion 	.card-header {

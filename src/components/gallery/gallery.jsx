@@ -9,12 +9,12 @@ import sample4 from '../../assets/images/gallery/4.png';
 class Gallery extends Component {
   componentDidMount() {
     $('.blog-slider .item').hover(
-      function() {
+      function () {
         $(this)
           .closest('.blog-slider')
           .addClass('active');
       },
-      function() {
+      function () {
         $(this)
           .closest('.blog-slider')
           .removeClass('active');
@@ -37,9 +37,9 @@ class Gallery extends Component {
       }
     ];
     const options = {
-      slideSpeed: 500,
+      autoplayTimeout: 3000,
       autoplay: true,
-      reWind: true,
+      loop: true,
       margin: 10,
       nav: true,
       dots: false,
@@ -61,32 +61,32 @@ class Gallery extends Component {
           items: 3
         },
         1200: {
-            items: 4
+          items: 4
         }
       }
     };
     const Items = ({ image }) => (
-        <div className="blog" style={{ borderRadius: '5px' }}>
-          <figure>
-              <img src={image} alt="" />
-          </figure>
-        </div>
+      <div className="blog" style={{ borderRadius: '5px' }}>
+        <figure>
+          <img src={image} alt="" />
+        </figure>
+      </div>
     );
 
     return (
       <div id="gallery" className="wd_scroll_wrap wd_scroll">
         <section className="gallery-area blog-area section bg-secondary pd-t30 pd-b30">
-            <OwlCarousel ref="carousel" options={options}>
-                {data.map((obj, i) => (
-                <Items
-                    key={i}
-                    image={obj.image}
-                    title={obj.title}
-                    date={obj.date}
-                    text={obj.text}
-                />
-                ))}
-            </OwlCarousel>
+          <OwlCarousel ref="carousel" options={options}>
+            {data.map((obj, i) => (
+              <Items
+                key={i}
+                image={obj.image}
+                title={obj.title}
+                date={obj.date}
+                text={obj.text}
+              />
+            ))}
+          </OwlCarousel>
         </section>
       </div>
     );

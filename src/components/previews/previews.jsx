@@ -8,12 +8,12 @@ import sample1 from '../../assets/images/arts/1.png';
 class Previews extends Component {
   componentDidMount() {
     $('.blog-slider .item').hover(
-      function() {
+      function () {
         $(this)
           .closest('.blog-slider')
           .addClass('active');
       },
-      function() {
+      function () {
         $(this)
           .closest('.blog-slider')
           .removeClass('active');
@@ -34,8 +34,9 @@ class Previews extends Component {
     ];
     const options = {
       slideSpeed: 500,
+      autoplayTimeout: 3000,
       autoplay: true,
-      reWind: true,
+      loop: true,
       margin: 0,
       nav: false,
       dots: false,

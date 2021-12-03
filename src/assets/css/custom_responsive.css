@@ -3,6 +3,14 @@
     .d-sm-flex {
         display: flex !important;
     }
+
+    .mobile-menu {
+        display: none;
+    }
+    
+    .mx-sm-500 {
+        max-width: 500px;
+    }
 }
 
 @media only screen and (min-width: 968px) {
@@ -78,7 +86,53 @@
         font-weight: 100;
         font-size: 70px;
         transform: translate(0%, 0px);
-      }
+    }
+
+    .about-content .buttons {
+        margin-left: 0;
+    }
+
+    header {
+        padding: 1rem 0;
+    }
+
+    .btc_main_menu {
+        position: relative;
+    }
+
+    header .menu-area {
+        width: auto;
+    }
+
+    .mobile-menu + ul {
+        display: flex;
+        background: #fff;
+        padding: 0.5rem 1rem;
+        flex-direction: column;
+        position: absolute;
+        right: -10px;
+        top: 100%;
+        align-items: flex-start;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .3s, visibility .3s;
+        border-radius: 5px;
+        box-shadow: 0 4px 15px;
+    }
+
+    .btc_main_menu:hover .mobile-menu + ul {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header .menu-area nav ul li a {
+        padding: 0;
+    }
+
+    header .menu-area nav ul li {
+        padding: 0 !important;
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width: 768px){

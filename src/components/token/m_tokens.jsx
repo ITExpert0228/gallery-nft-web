@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ReactWOW from 'react-wow';
 import OwlCarousel from 'react-owl-carousel2';
-import TokenDetails from './tokenDetails';
 
 class Tokens extends Component {
   render() {
@@ -30,7 +29,7 @@ class Tokens extends Component {
         }
       }
     };
-  
+
     let contents = (
       <Row>
         <Col lg={12} md={12} sm={12} className="col-xs-12">
@@ -40,45 +39,45 @@ class Tokens extends Component {
         </Col>
         <Col sm={12} className="col-xs-12">
           <OwlCarousel ref="carousel" options={options}>
-              <div className="tokens w-100 ">
-                <div className="token-name text-primary bg-white">Pre-Sale</div>
-                <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                  <button className="right-btn">Price $500 Per NFT</button>
-                  <span className="easypiechart skill-circle bg-primary">
-                    <span className="percent head-font">20</span>
-                    <br />
-                    <span className="con">of Total Supply</span>
-                  </span>
-                </div>
+            <div className="tokens w-100 ">
+              <div className="token-name text-primary bg-white">Pre-Sale</div>
+              <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
+                <button className="right-btn">Price $500 Per NFT</button>
+                <span className="easypiechart skill-circle bg-primary">
+                  <span className="percent head-font">20</span>
+                  <br />
+                  <span className="con">of Total Supply</span>
+                </span>
               </div>
+            </div>
 
-              <div className="tokens w-100 ">
-                <div className="token-name text-primary bg-white">Phare 1</div>
-                <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                  <button className="right-btn">Price $1000 Per NFT</button>
-                  <span className="easypiechart skill-circle bg-primary">
-                    <span className="percent head-font">60</span>
-                    <br />
-                    <span className="con">of Total Supply</span>
-                  </span>
-                </div>
+            <div className="tokens w-100 ">
+              <div className="token-name text-primary bg-white">Phare 1</div>
+              <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
+                <button className="right-btn">Price $1000 Per NFT</button>
+                <span className="easypiechart skill-circle bg-primary">
+                  <span className="percent head-font">60</span>
+                  <br />
+                  <span className="con">of Total Supply</span>
+                </span>
               </div>
+            </div>
 
-              <div className="tokens w-100 ">
-                <div className="token-name text-primary bg-white">Final Phase</div>
-                <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                  <button className="right-btn">Price $1500 Per NFT</button>
-                  <span className="easypiechart skill-circle bg-primary">
-                    <span className="percent head-font">20</span>
-                    <br />
-                    <span className="con">of Total Supply</span>
-                  </span>
-                </div>
+            <div className="tokens w-100 ">
+              <div className="token-name text-primary bg-white">Final Phase</div>
+              <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
+                <button className="right-btn">Price $1500 Per NFT</button>
+                <span className="easypiechart skill-circle bg-primary">
+                  <span className="percent head-font">20</span>
+                  <br />
+                  <span className="con">of Total Supply</span>
+                </span>
               </div>
+            </div>
           </OwlCarousel>
 
           <Col lg={12} md={12} sm={12} className="col-xs-12 text-center">
-            <p className="token-con">During the Pre-sale, Phase i and Final Phase you can save even moe by buying in bulk. When you buy 5 Nft's<br />ou get 10% discount. Buy 10 Nft's you get 15% discount. Buy Nft's get a 25% discount</p>
+            <p className="token-con">During the Pre-sale, Phase 1 and Final Phase you can save even more by buying in bulk. When you buy 5 Nft's<br />ou get 10% discount. Buy 10 Nft's, you get 15% discount. Buy Nft's get a 25% discount</p>
           </Col>
         </Col>
       </Row>

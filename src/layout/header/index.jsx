@@ -72,7 +72,7 @@ class Header extends Component {
       <ul>
         <li><a className="nav-link" href="#default">Home</a></li>
         <li><a className="nav-link" href="#about">About</a></li>
-        <li><a className="nav-link" href="#">Features</a></li>
+        <li><a className="nav-link" href="#about">Features</a></li>
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
         <li><a className="nav-link" href="#faq">FAQS</a></li>
@@ -85,17 +85,18 @@ class Header extends Component {
 
         <header className={`gc_main_menu_wrapper ${this.state.scroll > this.state.top ? "menu_fixed animated fadeInDown" : ""}`}>
           <Container fluid>
-            <Row className="d-flex align-items-center">
-              <Col className="col-xs-6" sm={3} md={3} lg={3}>
+            <Row className="d-flex align-items-center ">
+              <Col className="col-xs-6" sm={7} md={3} lg={3}>
                 <div className="logo-area pd-l40">
                   <Link to={Config.defaultPath}>
                     <img src={logo} alt="logo" />
                   </Link>
                 </div>
               </Col>
-              <Col className="col-xs-6 menu-area d-sm-flex justify-content-end" sm={9} md={9} lg={9}>
-                <div className="menu-navs hidden-xs">
+              <Col className="col-xs-6 menu-area d-flex justify-content-end ml-auto" sm={5} md={9} lg={9}>
+                <div className="menu-navs">
                   <nav className="wd_single_index_menu btc_main_menu">
+                    <a href="#id" className="mobile-menu hidden-sm" onClick={(e) => { e.preventDefault(); }}>Menu</a>
                     {navigation}
                   </nav>
                   {/* <div className="language">
@@ -106,7 +107,7 @@ class Header extends Component {
                     </ul>
                   </div> */}
                 </div>
-                <div className="rp_mobail_menu_main_wrapper visible-xs">
+                {/* <div className="rp_mobail_menu_main_wrapper visible-xs">
                   <div className="row">
                     <div className="col-xs-12">
                       <div id="toggle" onClick={this.toggleNavMenu}>
@@ -139,8 +140,8 @@ class Header extends Component {
                       {navigation}
                     </div>
                   </div>
-                </div>
-                <div className = "btn-group">
+                </div> */}
+                <div className="btn-group">
                   {/* <Link id="id_Connect" to="#" className="btn1"><i className="fa fa-sign-in"></i><span>Connect</span></Link>
                   <Link id="id_Wallet" to="#" className="btn1"><i className="fa fa-briefcase"></i>Wallet</Link> */}
                 </div>
