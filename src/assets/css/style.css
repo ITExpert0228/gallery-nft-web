@@ -2573,9 +2573,15 @@ ul ul > li.has-sub > a:before {
 .about-area .about-content .buttons a {
   margin: 0 10px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 369px) {
   .about-area .about-content .buttons a {
     margin: 0 0 10px;
+  }
+
+  .about-content .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .about-area .about-content .buttons a:first-child {
@@ -4482,7 +4488,7 @@ footer .footer-top .con ul li a:hover {
 }
 .steps-area .steps-heading {
   display: block;
-  height: 70px;
+  margin-bottom: -2rem;
   line-height: 70px;
   position: relative;
   z-index: 999;
@@ -4508,13 +4514,7 @@ footer .footer-top .con ul li a:hover {
   max-width: calc( 100% - 100px );
   line-height: 1.5;
 }
-@media only screen and (max-width: 320px) {
-  .steps-area .steps-heading .right-con {
-    position: relative;
-    margin-right: 0;
-    text-align: right;
-  }
-}
+
 .steps-area .steps-heading .right-con span {
   color: #8486a6;
   display: inline-block;

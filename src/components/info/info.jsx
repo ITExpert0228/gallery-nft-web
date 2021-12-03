@@ -20,21 +20,21 @@ class Info extends Component {
               </Col>
               <Col lg={7} md={12} sm={12} className="col-xs-12">
                 <Col lg={12} md={12} sm={12} className="col-xs-12 pd-b30">
-                   <figure className="d-flex justify-content-center">
-                      <img src={ sample1 } alt="image" style={{ maxWidth: '500px' }}/>
-                   </figure>
+                  <figure className="d-flex justify-content-center">
+                    <img src={sample1} alt="image" className="mx-sm-500" />
+                  </figure>
                 </Col>
 
                 <Col lg={6} md={6} sm={6} className="col-xs-12">
-                   <figure>
-                      <img src={ sample2 } alt="image"/>
-                   </figure>
+                  <figure>
+                    <img src={sample2} alt="image" />
+                  </figure>
                 </Col>
 
                 <Col lg={6} md={6} sm={6} className="col-xs-12">
-                   <figure>
-                      <img src={ sample3 } alt="image"/>
-                   </figure>
+                  <figure>
+                    <img src={sample3} alt="image" />
+                  </figure>
                 </Col>
               </Col>
             </Row>

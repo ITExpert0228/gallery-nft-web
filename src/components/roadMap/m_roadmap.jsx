@@ -11,12 +11,12 @@ class Roadmap extends Component {
           <Container>
             <Row className="d-flex">
               <Col lg={7} md={11} sm={12} className="col-xs-12 mr-auto ml-auto">
-                <div className="steps-heading text-center pd-b150">
+                <div className="steps-heading text-center pd-b90">
                   <h2 className="text-primary">ROAD MAP</h2>
                 </div>
 
                 <div className="steps-heading">
-                  <p className="text-primary fw-600 f-20  pl-30">Shareholders Gallery will be welling 40% of the company in the form of an NFT. There will be limited amount of Nft's available all in total equaling 40%</p>
+                  <p className="text-primary fw-600 f-20 mb-0 pl-30">Shareholders Gallery will be welling 40% of the company in the form of an NFT. There will be limited amount of Nft's available all in total equaling 40%</p>
 
                   <div className="right-con">
                     <Link to="#steps"><i className="fa fa-angle-down"></i></Link>
@@ -34,12 +34,11 @@ class Roadmap extends Component {
                   <ul>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20 pd-b35">Shareholders Gallery will be welling 40% of the company in the form of an NFT. There will be limited amount of Nft's available all in total equaling 40%</p>
-                        <p className="text-primary fw-600 f-20 pd-b35">Pre-sale: 400 Nft's - $500 each<br/>
-                          Phase 1:  1200 Nft's - $100 each<br/>
+                        <p className="text-primary fw-600 f-20 pd-b35">Pre-sale: 400 Nft's - $500 each<br />
+                          Phase 1:  1200 Nft's - $100 each<br />
                           Final Phase:  400 Nft's - $1500 each</p>
 
-                          <p className="text-primary fw-600 f-20">1 NFT is equal to 0.02% ownership of Shareholders Gallery. 50 NFT's equal 1% ownership of Shareholders Gallery.</p>
+                        <p className="text-primary fw-600 f-20">1 NFT is equal to 0.02% ownership of Shareholders Gallery. 50 NFT's equal 1% ownership of Shareholders Gallery.</p>
                       </div>
                       <span><i className="fa fa-users"></i></span>
                     </li>
@@ -145,7 +144,7 @@ class Roadmap extends Component {
                           <div className="cont">
                             <h2>02. Passing Verification</h2>
                             <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
-                                            <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
+                              <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
                           </div>
                         </ReactWOW>
                         <span><i className="fa fa-check-square-o"></i></span>
@@ -155,7 +154,7 @@ class Roadmap extends Component {
                           <div className="cont">
                             <h2>03. Creating An Application For a Loan</h2>
                             <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
-                                            <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
+                              <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
                           </div>
                         </ReactWOW>
                         <span><i className="fa fa-edit "></i></span>
@@ -166,7 +165,7 @@ class Roadmap extends Component {
                           <div className="cont">
                             <h2>04. Financing a Loan</h2>
                             <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
-                                            <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
+                              <br />nulla. Cras sodales eu nibh vel scelerisque. </p>
                           </div>
                         </ReactWOW>
                         <span><i className="fa fa-university"></i></span>

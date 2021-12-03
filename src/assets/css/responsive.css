@@ -29,6 +29,7 @@
   }
   .logo-area {
     text-align: center;
+    padding-left: 0;
   }
   header .menu-area {
     float: none;
@@ -190,17 +191,31 @@
 }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 680px) {
+  .steps-area .steps-heading p {
+    max-width: calc( 100% - 58px );
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .steps-area .steps-heading p {
+    font-size: 14px;
+  }
+
+  .steps-area .steps-heading .right-con {
+    right: -4px;
+    top: 34px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .video-js {
     width: 320px;
     height: 182px;
   }
-  .steps-area .steps-heading .right-con a {
-    display: none;
-  }
-  .steps-area {
-    text-align: center;
-    padding: 40px 0;
+  
+  .steps-area .steps-heading p {
+    font-size: 14px;
   }
   .slider-area .carousel {
     padding: 30vh 0 20vh;
@@ -307,6 +322,7 @@
   }
   .logo-area {
     width: 234px !important;
+    padding-left: 0;
   }
   .steps-area .steps-heading .right-con span {
     display: none;
