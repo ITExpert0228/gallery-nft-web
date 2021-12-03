@@ -14,7 +14,7 @@ function Card(props) {
             {({ onToggle, setCollapsibleElement, toggleState }) => (
                 <div className={`card ${adClass}`}>
                     <div className={`text-white card-header ${toggleState.toLowerCase()}`} onClick={onToggle} >
-                        <a href="#card" className={`toggle-button ${toggleState.toLowerCase()}`} onClick={(e) => preventUrl(e)}>
+                        <a href="#card" className={`toggle-button text-white ${toggleState.toLowerCase()}`} onClick={(e) => preventUrl(e)}>
                             {
                                 iconClass ?
                                     <i className={iconClass}></i> : ""
