@@ -1,101 +1,99 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Collapse, CardBody, Card, CardHeader } from 'reactstrap';
-import coin1 from "../../assets/images/icons/1.png";
-
+import Accordion from '../accordion/accordion';
+import Card from '../accordion/card';
 
 class Faqs extends Component {
-  constructor(props) {
-    super(props);
-    this.toggle = this.toggle.bind(this);
-    this.state = { collapse: false };
-  }
-
-  toggle(v) {
-    this.setState({ collapse: v == this.state.collapse ? 0 : v });
-  }
   render() {
-    const data = [
-      {
-        title: '1. WHAT IS SHAREHOLDERS GALLERY?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '2. HOW MANY NFT\'S WILL THERE BE AVAILABLE DURING THE LAUNCH OF SHAREHOLDERS GALLERY\'S NFT SALE.',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '3. WHAT PERCENTAGE OF THE COMPANY DOES 1 NFT BUY ME?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '4. HOW MANY NFT\'S DO I NEED TO BUY TO HOLD 1% OWNERSHIP OF SHAREHOLDERS GALLERY?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '5. HOW MUCH WILL 1 NFT COST?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '6. WHEN WILL SHAREHOLDERS GALLERY LAUNCH IT\'S FIRST PROJECT NFT? EXAMPLE KILLER CUBS...',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '7. HOW MANY NFT\'S WILL THERE BE AVAILABLE DURING THE LAUNCH OF KILLER CUBS GENERATION 1: FEATURING LITTLE JAY?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '8. IS THERE A SITE TO SEE KILLER CUBS IN DEVELOPMENT?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '9. WHAT IS THE SELLOUT PRICE FOR KILLER CUBS?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '10. HOW MUCH WOULD I EARN FROM THE KILLER CUBS NFT LAUNCH?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '11. WHAT ARE THE DIFFERENT WAYS I CAN EARN MONEY?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '12. WHEN DO WE START EARNING RESIDUALS?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '13. HOW MANY NFT\'S WILL YOU LAUNCH?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-      {
-        title: '14. ONCE I BECOME A SHAREHOLDERS GALLERY OWNER, WHAT ARE MY RESPONSIBILITIES?',
-        text: 'WHAT IS SHAREHOLDERS GALLERY?',
-      },
-    ];
     let con = (
       <Container>
-        <Row>
-          <Col lg={8} md={8} sm={10} className="col-xs-12 col-md-offset-2 col-lg-offset-2">
+        <Row className="d-flex flex-wrap">
+          <Col lg={12} md={12} sm={12} className="col-xs-12">
             <div className="section-heading2">
               <h2>FAQS</h2>
-              {
-                data.map((obj, i) => (
-                   <p>
-                  <CardHeader onClick={() => this.toggle(i+1)}>
-                    <span className="font-weight-bold">{obj.title}</span>
-                  </CardHeader>
-                  <Collapse isOpen={this.state.collapse == i+1}>
-                    <Card>
-                      <CardBody>
-                        {obj.text} {i}
-                      </CardBody>
-                    </Card>
-                  </Collapse>
-                   </p>
-                ))
-              }
             </div>
+          </Col>
+
+          <Col lg={9} md={12} sm={12} className="col-xs-12 mr-auto ml-auto">
+            <div id="accordion">
+              <Accordion adClass="accordion-simple">
+                  <Card title="1. WHAT IS SHAREHOLDERS GALLERY?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu
+                      ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa.
+                      </p>
+                  </Card>
+
+                  <Card title="2. HOW MANY NFTS WILL THERE BE AVAILABLE DURING THE LAUNCH OF SHAREHOLDERS GALLERY'S NFT SALE?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.
+                      In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget
+                      massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor,
+                      orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere
+                      gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis
+                      ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa.
+                      Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut
+                      egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor
+                      iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.
+                      </p>
+                  </Card>
+
+                  <Card title="3. WHAT PERCENTAGE OF THE COMPANY DOES 1 NFT BUY ME?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.
+                      In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa.
+                      </p>
+                  </Card>
+
+                  <Card title="4. HOW MANY NFTS DO I NEED TO BUY TO HOLD 1% OWNERSHOP OF SHAREHOLDERS GALLERY?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum
+                      vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec
+                      pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor
+                      elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla,
+                      fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor
+                      tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at
+                      massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.
+                      </p>
+                  </Card>
+
+                  <Card title="5. HOW MUCH WILL 1 NFT COST?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.
+                      In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat
+                      eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere
+                      auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis
+                      ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus.
+                      Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa.
+                      Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero.
+                      Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar,
+                      odio orci sodales odio, ac pulvinar felis quam sit.
+                      </p>
+                  </Card>
+
+                  <Card title="6. WHEN WILL SHAREHOLDERS GALLERY LAUCH ITS FIRST PROJECT NFT? EXAMPLE KILLER CUBS" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.
+                      In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat
+                      eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere
+                      auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis
+                      ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus.
+                      Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa.
+                      Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero.
+                      Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar,
+                      odio orci sodales odio, ac pulvinar felis quam sit.
+                      </p>
+                  </Card>
+
+                  <Card title="7. HOW MANY NFTS WILL THERE BE AVAILABLE DURING THE LANUNCH OF KILLER CUBS GENERATION 1: FEATURING LATTLE JAY?" adClass="card-accordion">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius.
+                      In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat
+                      eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere
+                      auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis
+                      ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus.
+                      Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa.
+                      Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero.
+                      Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar,
+                      odio orci sodales odio, ac pulvinar felis quam sit.
+                      </p>
+                  </Card>
+              </Accordion>
+          </div>
           </Col>
         </Row>
       </Container>
@@ -105,6 +103,7 @@ class Faqs extends Component {
         <section className="features-area section">
           {con}
         </section>
+        <div className="horizon-divider bg-secondary" style={{ height: '25px' }}></div>
       </div>
     );
   }

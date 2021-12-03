@@ -1,5 +1,5 @@
 {
-  "name": "amazing-chimps",
+  "name": "shareholders-gallery-nft",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +25,7 @@
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^4.0.3",
+    "react-slide-toggle": "^0.3.5",
     "react-wow": "^1.0.0",
     "reactstrap": "^8.0.0",
     "redux": "^4.0.1",

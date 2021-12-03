@@ -4,34 +4,34 @@ import Features from '../components/features/m_features';
 import Roadmap from '../components/roadMap/m_roadmap';
 import Tokens from '../components/token/m_tokens';
 import MainSlider from '../components/mainSlider/m_mainSlider';
-import Products from '../components/products/m_products';
+import Teams from '../components/team/m_team';
 import Previews from '../components/previews/previews';
+import Info from '../components/info/info';
 import Faqs from '../components/faq/faqs';
+import Gallery from '../components/gallery/gallery';
 
 class M_HomePage extends Component {
   render() {
     return (
       <Fragment>
         <div className="wd_scroll_wrap">
-          <div style={{"paddingTop":"52px", "background": "#052743"}}></div>
-          <div style={{"paddingTop":"8px", "background": "#F2D969"}}></div>
           <MainSlider />
-          <div style={{"paddingTop":"25px", "background": "#F2D969"}}></div>
-          <About />
+          <About fill="#10122d" />
         </div>
-        <div className="wd_scroll_wrap">
+        <div className="wd_scroll_wrap bg-secondary">
             <Previews />
         </div>
+
         <div className="wd_scroll_wrap">
           <Tokens />
         </div>
-        <Roadmap />
+
+        <Roadmap fill="#10122d" />
+
         <Faqs />
-        <div className="wd_scroll_wrap">
-          <div style={{"paddingTop":"18px", "background": "#F2D969"}}></div>
-          <Features />
-        </div>
-        <Products />
+        <Info />
+        <Gallery/>
+
       </Fragment>
     );
   }

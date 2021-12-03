@@ -72,7 +72,7 @@ class Header extends Component {
       <ul>
         <li><a className="nav-link" href="#default">Home</a></li>
         <li><a className="nav-link" href="#about">About</a></li>
-        <li><a className="nav-link" href="#features">Features</a></li>
+        <li><a className="nav-link" href="#">Features</a></li>
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
         <li><a className="nav-link" href="#faq">FAQS</a></li>
@@ -80,17 +80,20 @@ class Header extends Component {
     )
     return (
       <div id="default" className="wd_scroll_wrap wd_scroll">
+        <div className="header-top bg-primary"></div>
+        <div className="horizon-divider bg-secondary"></div>
+
         <header className={`gc_main_menu_wrapper ${this.state.scroll > this.state.top ? "menu_fixed animated fadeInDown" : ""}`}>
-          <Container>
-            <Row>
-              <Col className="col-xs-6" sm={12} md={3} lg={3}>
-                <div className="logo-area">
+          <Container fluid>
+            <Row className="d-flex align-items-center">
+              <Col className="col-xs-6" sm={3} md={3} lg={3}>
+                <div className="logo-area pd-l40">
                   <Link to={Config.defaultPath}>
-                    { <img src={logo} alt="logo" width={250} height={40}/> }
+                    <img src={logo} alt="logo" />
                   </Link>
                 </div>
               </Col>
-              <Col className="col-xs-6 menu-area" sm={12} md={9} lg={9}>
+              <Col className="col-xs-6 menu-area d-sm-flex justify-content-end" sm={9} md={9} lg={9}>
                 <div className="menu-navs hidden-xs">
                   <nav className="wd_single_index_menu btc_main_menu">
                     {navigation}

@@ -4,10 +4,6 @@ import ReactWOW from 'react-wow';
 import OwlCarousel from 'react-owl-carousel2';
 import $ from 'jquery';
 import sample1 from '../../assets/images/arts/1.png';
-import sample2 from '../../assets/images/arts/2.png';
-import sample3 from '../../assets/images/arts/3.png';
-import sample4 from '../../assets/images/arts/4.png';
-import sample5 from '../../assets/images/arts/5.png';
 
 class Previews extends Component {
   componentDidMount() {
@@ -27,36 +23,21 @@ class Previews extends Component {
   render() {
     const data = [
       {
-        image: sample5,
+        image: sample1,
       },
       {
-        image: sample5,
+        image: sample1,
       },
       {
-        image: sample5,
-      },
-      {
-        image: sample5,
-      },
-      {
-        image: sample5,
-      },
-      {
-        image: sample5,
-      },
-      {
-        image: sample5,
-      },
-      {
-        image: sample5,
+        image: sample1,
       }
     ];
     const options = {
       slideSpeed: 500,
       autoplay: true,
-      rewind: true,
+      reWind: true,
       margin: 0,
-      nav: true,
+      nav: false,
       dots: false,
       navText: [
         '<i class="fa fa-angle-left"></i>',
@@ -86,17 +67,17 @@ class Previews extends Component {
 
     return (
       <div id="news" className="wd_scroll_wrap wd_scroll">
-        <section className="blog-area section">
-          <Container className=" pd-t100 pd-b100">
+        <section className="blog-area section pd-t150 pd-b150">
+          <Container>
             <Row>
               <Col lg={12} md={12} sm={12} className="col-xs-12">
                 <div className="section-heading2">
                   {this.props.animate ? (
                     <ReactWOW animation={this.props.animate} duration="1s">
-                      <h2 className="text-first">PREVIEWS OF SHAREHOLDERS GALLERY NFT'S</h2>
+                      <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
                     </ReactWOW>
                   ) : (
-                    <h2 className="text-first">PREVIEWS OF SHAREHOLDERS GALLERY NFT'S</h2>
+                    <h2 className="text-primary fw-800">RREVIEWS OF SHAREEHOLDERS GALLERY NFTS</h2>
                   )}
                 </div>
               </Col>

@@ -7,7 +7,7 @@ const MainLayout = () => (
   <Fragment>
     <Header />
     <ContentWrapper />
-    <Footer />
+    {/* <Footer /> */}
   </Fragment>
 )
 
