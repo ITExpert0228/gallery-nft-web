@@ -362,7 +362,7 @@ h4 {
 .section-heading2 {
   display: block;
   margin: 0 0 60px;
-  text-align: center;
+  text-align: justify;
 }
 @media only screen and (max-width: 768px) {
   .section-heading2 {
@@ -377,6 +377,7 @@ h4 {
 .section-heading2 h2 {
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
   .section-heading2 h2 {
@@ -4231,6 +4232,10 @@ footer .footer-top .con ul li a:hover {
   position: relative;
   background: #052743;
   z-index: 1;
+  font-size: 22px;
+}
+.features-area h2 {
+  font-size: 60px;
 }
 @media only screen and (max-width: 768px) {
   .features-area .featured-lists .floatright {
@@ -4251,7 +4256,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul:after {
-  content: "";
+  /*content: "";*/
   position: absolute;
   left: 0;
   right: 0;
@@ -4284,7 +4289,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li:after {
-  content: "";
+/*  content: "";*/
   position: absolute;
   left: 0;
   right: 0;
@@ -4301,7 +4306,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li:before {
-  content: "";
+  /*content: "";*/
   position: absolute;
   left: 19.5%;
   right: 0;
@@ -4316,7 +4321,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li.rl:after {
-  content: "";
+  /*content: "";*/
   position: absolute;
   left: 0;
   right: 0;
@@ -4333,7 +4338,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li.rl:before {
-  content: "";
+  /*content: "";*/
   position: absolute;
   left: 16%;
   right: 0;
@@ -4349,7 +4354,6 @@ footer .footer-top .con ul li a:hover {
 }
 .features-area .featured-lists ul li .contents-l {
   display: block;
-  padding: 40px 0;
 }
 @media only screen and (max-width: 768px) {
   .features-area .featured-lists ul li .contents-l {
@@ -4358,7 +4362,6 @@ footer .footer-top .con ul li a:hover {
 }
 .features-area .featured-lists ul li .contents-l h2 {
   color: #fff;
-  font-weight: 400;
   letter-spacing: 1px;
   margin: 0 0 20px;
 }
@@ -4368,7 +4371,7 @@ footer .footer-top .con ul li a:hover {
   }
 }
 .features-area .featured-lists ul li .contents-l p {
-  color: #8486a6;
+  color: #ffffff;
   margin: 0 0 20px;
 }
 .features-area .featured-lists ul li .contents-l a {

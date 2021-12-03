@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ReactWOW from 'react-wow';
-import features1 from '../../assets/images/features/1.png';
-import features2 from '../../assets/images/features/2.png';
-import features3 from '../../assets/images/features/3.png';
-import features4 from '../../assets/images/features/4.png';
+import featuresA from '../../assets/images/features/a.png';
+import featuresB from '../../assets/images/features/b.png';
+import featuresC from '../../assets/images/features/c.png';
 
 
 class Features extends Component {
@@ -13,33 +12,35 @@ class Features extends Component {
       <Container>
         <Row>
           <Col lg={12} md={12} sm={12} className="col-xs-12">
-            <div className="section-heading2">
-              <h2>Our Features</h2>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={12} md={12} sm={12} className="col-xs-12">
-            <div className="featured-lists">
+            <div className="featured-lists pd-t50">
               <ul>
                 <li>
-                  <Col className="pd-0 hidden-xs" sm={6}>
+                  <Col className="pd-0 hidden-xs" sm={5}>
                     <div className="contents-l mr-b30">
-                      <h2>Whitelist</h2>
-                      <p>
-                        There are 450 connections for our whitelists. <br />
-                        30-40 connections will be added every day for members <br />
-                        who assist the community through Twitter, Discord, Youtube <br />
-                        and the others, until being launched.
-                        Help to spread with the word, grow the lair, <br />
-                        then have a chance to win a spot in the whitelist!
+                      <h2>HOW WILL THE SHAREHOLDERS EARN MONEY?</h2>
+                      <p className="text-gold">
+                        After we successfully launch Shareholders Gallery's NFT on December 28th 2021 - All focus will be directed towards the launch of Killer Cubs Gen 1: Featuring "Little Jay" - on February 22, 2022 (Killer Cubs is 90% completed)
                       </p>
+                      <p>(All profits are paid out automatically and coded into the smart contract.) The predicted sell out total will be $3,000,000.</p>
+                      <br/>
+                      <p>Killer Cubs will have a total of 10,000 Nft's for sale. Prices will start at $100 and rise up to $500 per Nft by the end of 5 phases. PRE-SALE, PHASE 1 - PHASE 4</p>
+                      <p className="text-gold">Max 25 Nft's per order</p>
                       {/*<Link to="#" className="btn1">read more</Link>*/}
                     </div>
                   </Col>
-                  <Col className="pd-0" sm={6}>
+                  <Col className="pd-0" sm={7}>
                     <div className="imgs-l">
-                      <figure><img src={features1} alt="" /></figure>
+                      <Row>
+                        <Col lg={10} md={10} sm={10} className="col-xs-12 col-md-offset-1 col-lg-offset-1">
+                          <figure><img src={featuresA} alt="" /></figure>
+                        </Col>
+                        <Col lg={6} md={6} sm={6} className="col-xs-12 mr-t20">
+                          <figure><img src={featuresB} alt="" /></figure>
+                        </Col>
+                        <Col lg={6} md={6} sm={6} className="col-xs-12 mr-t20">
+                          <figure><img src={featuresC} alt="" /></figure>
+                        </Col>
+                      </Row>
                     </div>
                   </Col>
                   <Col className="pd-0 visible-xs" sm={6}>
@@ -54,84 +55,6 @@ class Features extends Component {
                         then have a chance to win a spot in the whitelist!
                       </p>
                       {/*<Link to="#" className="btn1">read more</Link>*/}
-                    </div>
-                  </Col>
-                </li>
-                <li className="rl">
-                  <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
-                    <div className="contents-r">
-                      <h2>Giveaways</h2>
-                      <p>
-                        90 Giveaways are reserved for memebers in the whitelist.
-                        The system will randomly drop the giveaways at any time for big contributors.
-                      </p>
-                      {/*<Link to="#" className="btn1">read more</Link>*/}
-                    </div>
-                  </Col>
-                  <Col className="pd-0" sm={6}>
-                    <div className="imgs-r">
-                      <figure><img src={features2} alt="" /></figure>
-                    </div>
-                  </Col>
-                  <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
-                    <div className="contents-r">
-                      <h2>Giveaways</h2>
-                      <p>
-                        90 Giveaways are reserved for memebers in the whitelist. <br />
-                        The system will randomly drop the giveaways at any time for big contributors.
-                      </p>
-                    </div>
-                  </Col>
-                </li>
-                <li>
-                  <Col className="pd-0 hidden-xs" sm={6}>
-                    <div className="contents-l mr-b30">
-                      <h2>Pre-sale</h2>
-                      <p>
-                        Before starting offical sale, our whitelists will be able to purchase <br />
-                        your chimps for lower price than offical sale.<br />
-                        Each whitelist will be able to mint a maximum of 2 chimps.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col className="pd-0" sm={6}>
-                    <div className="imgs-l">
-                      <figure><img src={features3} alt="" /></figure>
-                    </div>
-                  </Col>
-                  <Col className="pd-0 visible-xs" sm={6}>
-                    <div className="contents-l mr-b30">
-                      <h2>Pre-sale</h2>
-                        <p>
-                        Before starting offical sale, our whitelists will be able to purchase <br />
-                        your chimps for lower price than offical sale.<br />
-                        Each whitelist will be able to mint a maximum of 2 chimps.
-                        </p>
-                    </div>
-                  </Col>
-                </li>
-                <li className="rl">
-                  <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
-                    <div className="contents-r">
-                      <h2>Official-Sale</h2>
-                      <p>
-                        4 phases will be automatically opened in order, according to the time-line.<br />
-                        Each phase will have limitted amount of chimps, and increasing price.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col className="pd-0" sm={6}>
-                    <div className="imgs-r">
-                      <figure><img src={features4} alt="" /></figure>
-                    </div>
-                  </Col>
-                  <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
-                    <div className="contents-r">
-                      <h2>Official-Sale</h2>
-                      <p>
-                        4 phases will be automatically opened in order, according to the time-line.<br />
-                        Each phase will have limitted amount of chimps, and increasing price.
-                      </p>
                     </div>
                   </Col>
                 </li>
@@ -177,7 +100,7 @@ class Features extends Component {
                     <ReactWOW animation={this.props.animate} duration="1.6s">
                       <Col className="pd-0" sm={6}>
                         <div className="imgs-l">
-                          <figure><img src={features1} alt="" /></figure>
+                          <figure><img src={featuresA} alt="" /></figure>
                         </div>
                       </Col>
                     </ReactWOW>
@@ -192,101 +115,6 @@ class Features extends Component {
                             and the others, until being launched.
                             Help to spread with the word, grow the lair, <br />
                             then have a chance to win a spot in the whitelist!
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                  </li>
-                  <li className="rl">
-                    <ReactWOW animation={this.props.animate} duration="1.6s">
-                      <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
-                        <div className="contents-r">
-                          <h2>Giveaways</h2>
-                          <p>
-                            90 Giveaways are reserved for memebers in the whitelist.
-                            The system will randomly drop the giveaways at any time for big contributors.
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="1.6s">
-                      <Col className="pd-0" sm={6}>
-                        <div className="imgs-r">
-                          <figure><img src={features2} alt="" /></figure>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="1.6s">
-                      <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
-                        <div className="contents-r">
-                          <h2>Giveaways</h2>
-                          <p>
-                            90 Giveaways are reserved for memebers in the whitelist.
-                            The system will randomly drop the giveaways at any time for big contributors.
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                  </li>
-                  <li>
-                    <ReactWOW animation={this.props.animate} duration="1.9s">
-                      <Col className="pd-0 hidden-xs" sm={6}>
-                        <div className="contents-l mr-b30">
-                          <h2>Pre-sale</h2>
-                          <p>
-                            Before starting offical sale, our whitelists will be able to purchase <br />
-                            your chimps for lower price than offical sale.<br />
-                            Each whitelist will be able to mint a maximum of 2 chimps.
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="1.9s">
-                      <Col className="pd-0" sm={6}>
-                        <div className="imgs-l">
-                          <figure><img src={features3} alt="" /></figure>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="1.9s">
-                      <Col className="pd-0 visible-xs" sm={6}>
-                        <div className="contents-l mr-b30">
-                          <h2>Pre-sale</h2>
-                          <p>
-                            Before starting offical sale, our whitelists will be able to purchase <br />
-                            your chimps for lower price than offical sale.<br />
-                            Each whitelist will be able to mint a maximum of 2 chimps.
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                  </li>
-                  <li className="rl">
-                    <ReactWOW animation={this.props.animate} duration="2.1s">
-                      <Col className="pd-0 floatright mr-b30 hidden-xs" sm={6}>
-                        <div className="contents-r">
-                          <h2>Official-Sale</h2>
-                          <p>
-                            4 phases will be automatically opened in order, according to the time-line.<br />
-                            Each phase will have limitted amount of chimps, and increasing price.
-                          </p>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="2.1s">
-                      <Col className="pd-0" sm={6}>
-                        <div className="imgs-r">
-                          <figure><img src={features4} alt="" /></figure>
-                        </div>
-                      </Col>
-                    </ReactWOW>
-                    <ReactWOW animation={this.props.animate} duration="2.1s">
-                      <Col className="pd-0 floatright mr-b30 visible-xs" sm={6}>
-                        <div className="contents-r">
-                          <h2>Official-Sale</h2>
-                          <p>
-                            4 phases will be automatically opened in order, according to the time-line.<br />
-                            Each phase will have limitted amount of chimps, and increasing price.
                           </p>
                         </div>
                       </Col>

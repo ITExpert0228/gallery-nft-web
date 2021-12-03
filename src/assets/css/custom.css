@@ -450,3 +450,11 @@ body {
 .text-first {
   color: #052743;
 }
+
+.text-gold {
+  color: #F2D969!important;
+}
+
+#features h2 {
+  font-size: 54px;
+}

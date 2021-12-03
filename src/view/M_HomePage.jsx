@@ -27,6 +27,10 @@ class M_HomePage extends Component {
         </div>
         <Roadmap />
         <Faqs />
+        <div className="wd_scroll_wrap">
+          <div style={{"paddingTop":"18px", "background": "#F2D969"}}></div>
+          <Features />
+        </div>
       </Fragment>
     );
   }
