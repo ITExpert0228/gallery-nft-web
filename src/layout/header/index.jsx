@@ -96,7 +96,7 @@ class Header extends Component {
               <Col className="col-xs-6 menu-area d-flex justify-content-end ml-auto" sm={5} md={9} lg={9}>
                 <div className="menu-navs">
                   <nav className="wd_single_index_menu btc_main_menu">
-                    <a href="#" className="mobile-menu hidden-sm">Menu</a>
+                    <a href="#" className="mobile-menu hidden-sm" onClick={(e) => { e.preventDefault(); }}>Menu</a>
                     {navigation}
                   </nav>
                   {/* <div className="language">
