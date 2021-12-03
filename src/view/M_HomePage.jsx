@@ -4,7 +4,7 @@ import Features from '../components/features/m_features';
 import Roadmap from '../components/roadMap/m_roadmap';
 import Tokens from '../components/token/m_tokens';
 import MainSlider from '../components/mainSlider/m_mainSlider';
-import Teams from '../components/team/m_team';
+import Products from '../components/products/m_products';
 import Previews from '../components/previews/previews';
 import Faqs from '../components/faq/faqs';
 
@@ -31,6 +31,7 @@ class M_HomePage extends Component {
           <div style={{"paddingTop":"18px", "background": "#F2D969"}}></div>
           <Features />
         </div>
+        <Products />
       </Fragment>
     );
   }

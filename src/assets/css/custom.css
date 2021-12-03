@@ -458,3 +458,11 @@ body {
 #features h2 {
   font-size: 54px;
 }
+
+#news .section {
+  padding: 20px 0px;
+}
+
+#news .blog {
+  border-radius: 10px;
+}
