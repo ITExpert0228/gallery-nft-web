@@ -197,6 +197,7 @@ body {
   text-transform: uppercase;
   -webkit-animation-delay: 2.4s;
   animation-delay: 2.4s;
+  font-size:24px
 }
 .btn_top_fold_wrapper .btn1, .btn_top_fold_wrapper .btn2 {
   width:220px;
@@ -689,4 +690,15 @@ header {
 
 .logo-area img {
   max-width: 227px;
+}
+
+.slider-area .slider-content p {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 5px 30px rgb(44 46 83 / 30%);
+  animation-delay: 1.8s;
+  transition-delay: 0.9s;
+  opacity: 1;
+  padding-left: 20px;
 }
