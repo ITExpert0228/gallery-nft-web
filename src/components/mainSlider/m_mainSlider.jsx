@@ -100,7 +100,7 @@ class MainSlider extends Component {
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="slider-content">
                 <h2 className="text-primary">{obj.title}</h2>
-                <p className="text-primary text-center">December 28th 2021</p>
+                <p className="text-primary">December 28th 2021</p>
                 {/* <ul>
                   <li className="slider_social_icon1">
                     <Link to="#"><i className="fa fa-facebook"></i></Link>
