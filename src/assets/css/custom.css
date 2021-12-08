@@ -701,3 +701,8 @@ header {
   opacity: 1;
   padding-left: 30px;
 }
+.token-target {
+  margin-bottom: 35px;
+  font-size: 22px;
+  font-weight: 900;
+}
