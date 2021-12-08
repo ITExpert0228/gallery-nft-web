@@ -44,7 +44,7 @@ class Tokens extends Component {
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
                 <button className="right-btn">Price $500 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
-                  <span className="percent head-font">20</span>
+                  <span className="percent head-font">40</span>
                   <br />
                   <span className="con">of Total Supply</span>
                 </span>
@@ -56,7 +56,7 @@ class Tokens extends Component {
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
                 <button className="right-btn">Price $1000 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
-                  <span className="percent head-font">60</span>
+                  <span className="percent head-font">50</span>
                   <br />
                   <span className="con">of Total Supply</span>
                 </span>
@@ -68,7 +68,7 @@ class Tokens extends Component {
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
                 <button className="right-btn">Price $1500 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
-                  <span className="percent head-font">20</span>
+                  <span className="percent head-font">10</span>
                   <br />
                   <span className="con">of Total Supply</span>
                 </span>
