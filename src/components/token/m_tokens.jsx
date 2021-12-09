@@ -1,36 +1,36 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ReactWOW from 'react-wow';
-import OwlCarousel from 'react-owl-carousel2';
+//import OwlCarousel from 'react-owl-carousel2';
 
 class Tokens extends Component {
   render() {
-    const options = {
-      slideSpeed: 1000,
-      autoplayTimeout: 1000,
-      autoplay: true,
-      reWind: true,
-      margin: 20,
-      nav: false,
-      loop: true,
-      dots: false,
-      navText: [
-        '<i class="fa fa-angle-left"></i>',
-        '<i class="fa fa-angle-right"></i>'
-      ],
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3,
-          margin: 30
-        }
-      }
-    };
+    // const options = {
+    //   slideSpeed: 1000,
+    //   autoplayTimeout: 1000,
+    //   autoplay: true,
+    //   reWind: true,
+    //   margin: 20,
+    //   nav: false,
+    //   loop: true,
+    //   dots: false,
+    //   navText: [
+    //     '<i class="fa fa-angle-left"></i>',
+    //     '<i class="fa fa-angle-right"></i>'
+    //   ],
+    //   responsive: {
+    //     0: {
+    //       items: 1
+    //     },
+    //     600: {
+    //       items: 2
+    //     },
+    //     1000: {
+    //       items: 3,
+    //       margin: 30
+    //     }
+    //   }
+    // };
 
     let contents = (
       <Row>
@@ -39,8 +39,9 @@ class Tokens extends Component {
             <h2 className="fw-700">GALLERY NFT SALE: 3 PHASES</h2>
           </div>
         </Col>
-        <Col sm={12} className="col-xs-12">
-          <OwlCarousel ref="carousel" options={options}>
+        <Col lg={12} md={12} sm={12} className="col-xs-12">
+          {/* <OwlCarousel ref="carousel" options={options}> */}
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Pre-Sale</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
@@ -53,7 +54,8 @@ class Tokens extends Component {
                 </span>
               </div>
             </div>
-
+          </Col>
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Phase 1</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
@@ -66,7 +68,8 @@ class Tokens extends Component {
                 </span>
               </div>
             </div>
-
+          </Col>
+          <Col lg={4} md={4} sm={12} className="col-xs-12 text-right">
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Final Phase</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
@@ -79,7 +82,8 @@ class Tokens extends Component {
                 </span>
               </div>
             </div>
-          </OwlCarousel>
+          </Col>
+          {/* </OwlCarousel> */}
 
           <Col lg={12} md={12} sm={12} className="col-xs-12 text-center">
             <p className="token-con">During the Pre-sale, Phase 1 and Final Phase you can save even more by buying in bulk. When you buy 5 Nft's,<br />you get 10% discount. Buy 10 Nft's, you get 15% discount. Buy 25 Nft's get a 25% discount</p>
