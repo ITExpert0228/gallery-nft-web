@@ -671,7 +671,7 @@ header {
   overflow: hidden;
   text-overflow: ellipsis;
   text-transform: none;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .card.card-accordion 	.card-header:after {
@@ -705,4 +705,12 @@ header {
   margin-bottom: 35px;
   font-size: 22px;
   font-weight: 900;
+}
+
+.about-area .about-img img {
+  width: 105%;
+  max-width: 105%;
+}
+.about-content p {
+  font-size:20px;
 }

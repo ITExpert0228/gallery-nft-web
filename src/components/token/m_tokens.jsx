@@ -6,11 +6,13 @@ import OwlCarousel from 'react-owl-carousel2';
 class Tokens extends Component {
   render() {
     const options = {
-      slideSpeed: 500,
+      slideSpeed: 1000,
+      autoplayTimeout: 1000,
       autoplay: true,
       reWind: true,
       margin: 20,
       nav: false,
+      loop: true,
       dots: false,
       navText: [
         '<i class="fa fa-angle-left"></i>',
@@ -53,7 +55,7 @@ class Tokens extends Component {
             </div>
 
             <div className="tokens w-100 ">
-              <div className="token-name text-primary bg-white">Phare 1</div>
+              <div className="token-name text-primary bg-white">Phase 1</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
                 <span className="token-target text-primary">Target to sell - 1000 NFT's</span>
                 <button className="right-btn">Price $1000 Per NFT</button>
@@ -80,7 +82,7 @@ class Tokens extends Component {
           </OwlCarousel>
 
           <Col lg={12} md={12} sm={12} className="col-xs-12 text-center">
-            <p className="token-con">During the Pre-sale, Phase 1 and Final Phase you can save even more by buying in bulk. When you buy 5 Nft's<br />ou get 10% discount. Buy 10 Nft's, you get 15% discount. Buy Nft's get a 25% discount</p>
+            <p className="token-con">During the Pre-sale, Phase 1 and Final Phase you can save even more by buying in bulk. When you buy 5 Nft's,<br />you get 10% discount. Buy 10 Nft's, you get 15% discount. Buy 25 Nft's get a 25% discount</p>
           </Col>
         </Col>
       </Row>
