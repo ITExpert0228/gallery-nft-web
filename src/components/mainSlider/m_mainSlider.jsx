@@ -79,7 +79,7 @@ class MainSlider extends Component {
     const data = [
       {
         title: "LAUNCHING",
-        btn1: 'BE A SHAREHOLDER!',
+        btn1: 'MINT',
         // btn2: 'Become a Whitelist!'
       },
       // {
@@ -100,6 +100,7 @@ class MainSlider extends Component {
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="slider-content">
                 <h2 className="text-primary">{obj.title}</h2>
+                <p className="text-primary">December 28th 2021</p>
                 {/* <ul>
                   <li className="slider_social_icon1">
                     <Link to="#"><i className="fa fa-facebook"></i></Link>
@@ -120,7 +121,7 @@ class MainSlider extends Component {
               </div>
             </Col>
             <Col lg={6} md={6} sm={12} className="col-xs-12">
-              <Countdown timeTillDate="2021-12-21T00:00:00" timeFormat="YYYY-MM-DTHH:mm:ss" />
+              <Countdown timeTillDate="2021-12-28T00:00:00" timeFormat="YYYY-MM-DTHH:mm:ss" />
             </Col>
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="btn_top_fold_wrapper">

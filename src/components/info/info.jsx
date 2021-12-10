@@ -13,7 +13,7 @@ class Info extends Component {
             <Row>
               <Col lg={5} md={12} sm={12} className="col-xs-12">
                 <h2 className="text-white f-40">HOW WILL THE SHAREHOLDERS EARN MONEY?</h2>
-                <p className="text-secondary fw-600 f-20">After we successfully launch Shareholders Gallery's NFT on December 28th 2021 - All focus will be directed towards the launch of killer Cubs Gen 1: Featuring "Little Jay" - on February 22, 2022( Killer Cubs is 90% completed )</p>
+                <p className="text-secondary fw-600 f-20">After we successfully launch Shareholders Gallery's NFT on December 28th 2021 - All focus will be directed towards the launch of Killer Cubs Gen 1: Featuring "Little Jay" - on February 22, 2022( Killer Cubs is 90% completed )</p>
                 <p className="text-white fw-600 f-20">( All profits are paid out automatically and coded into the smart contract. ) The predicted sell out total will be $3,000,000.</p>
                 <p className="text-white fw-600 f-20">Killer Cubs will have a total of 10,000 Nft's for sale. Prices will start at $100 and rise up to $500 per Nft by the end of 5 phases. PRE-SALE, PHASE 1 - PHASE 4</p>
                 <p className="text-secondary fw-600 f-20">Max 25 Nft's per order</p>

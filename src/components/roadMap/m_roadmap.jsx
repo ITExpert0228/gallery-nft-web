@@ -16,7 +16,7 @@ class Roadmap extends Component {
                 </div>
 
                 <div className="steps-heading">
-                  <p className="text-primary fw-600 f-20 mb-0 pl-30">Shareholders Gallery will be welling 40% of the company in the form of an NFT. There will be limited amount of Nft's available all in total equaling 40%</p>
+                  <p className="text-primary fw-600 f-20 mb-0 pl-30">Shareholders Gallery will be selling 40% of the company in the form of an NFT.<br/>There will be a total of 2000 Shareholders Gallery NFT's sold</p>
 
                   <div className="right-con">
                     <Link to="#steps"><i className="fa fa-angle-down"></i></Link>
@@ -34,9 +34,9 @@ class Roadmap extends Component {
                   <ul>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20 pd-b35">Pre-sale: 400 Nft's - $500 each<br />
-                          Phase 1:  1200 Nft's - $100 each<br />
-                          Final Phase:  400 Nft's - $1500 each</p>
+                        <p className="text-primary fw-600 f-20 pd-b35">Pre-sale: 800 Nft's - $500 each<br />
+                          Phase 1:  1000 Nft's - $100 each<br />
+                          Final Phase:  200 Nft's - $1500 each</p>
 
                         <p className="text-primary fw-600 f-20">1 NFT is equal to 0.02% ownership of Shareholders Gallery. 50 NFT's equal 1% ownership of Shareholders Gallery.</p>
                       </div>
@@ -45,57 +45,56 @@ class Roadmap extends Component {
                     <li className="r-con">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">10 ETH GIVE AWAY</p>
-                        <p className="text-primary fw-600 f-20">Shareholders Gallery will be welling 40% of the company in the form of an NFT. There will be limited amount of Nft's available all in total equaling 40%</p>
+                        <p className="text-primary fw-600 f-20">We will give 50 random NFT holders 0.2 ETH each, as long as they are holding 1 or more Shareholders Gallery NFT's.<br/>(ETA on this drop is 2 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-check-square-o"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">100 Random Killer Cubs will be withheld from the sale and will be randomly given out to holders who are holding 10 Killer Cubs Nft's or more.  Once the 100 Nft's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">20 Random Shareholder Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholder Gallery NFT's.  Once the 20 NFT's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-edit "></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">All Killer Cubs holders holding 1 or more Killer Cubs Nft's will get a special companion; a victim cub..  Killed by "Little Jay" - (ETA on this drop will be 4 weeks after the sale ends)</p>
+                      <p className="text-primary fw-600 f-20">5 ETH GIVE AWAY</p>
+                        <p className="text-primary fw-600 f-20">Top 25 people who help build our community via Discord, twitter etc will receive 0.2 ETH each.(ETA on this drop will be 5 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-university"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">5 ETH GIVE AWAY</p>
-                        <p className="text-primary fw-600 f-20">The top 5 Killer Cubs Holders will each receive 1 ETH.</p>
-                        <p className="text-primary fw-600 f-20">Prior holders who have already won will be excluded from this give away. (ETA on this drop will be 5 weeks after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Launch of Killer Cubs Generation 1 Featuring "Little Jay" ( ETA 2.22.2022 )</p>
                       </div>
                       <span><i className="fa fa-bell"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">A Comic Book and story line specificly about Little Jay along with his vitims and how it all began... (ETA 4 months after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 2 Featuring "Little Mikey" ( ETA 5.22.2022 )</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">It gets cold during hybernation period. Merch release. (ETA 6 months after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 3 Featuring "Little LeatherFace" ( ETA 8.22.2022 )</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Introduction of the Cave, the Killer Clubhouse. Hang out and kick back with your fellow Killer Cubs in the Metaverse. (ETA 9 months after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Introduction of the Shareholder Gallery Clubhouse. Hang out and kick back with your fellow Shareholder Gallery Members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>
-                    <li className="l-con pl-30">
+                    {/* <li className="l-con pl-30">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">Killer Cubs Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </Col>

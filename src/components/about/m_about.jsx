@@ -9,29 +9,24 @@ class About extends Component {
   render() {
     let page = (
       <Row>
-        <Col lg={6} md={6} sm={12} className="col-xs-12">
+        <Col lg={5} md={6} sm={12} className="col-xs-12">
           <div className="about-content">
             <h2 className="f-40">
               ABOUT SHAREHOLDERS GALLERY
             </h2>
-            <p className="text-white fw-800">Introducting the world's first Nft Gallery Lanuching as an Nft!</p>
-            <p className="text-white fw-800">In addition to being ver rare, this opportunity is also very limited.</p>
-            <p className="text-white fw-800">Shareholders Gallery is selling 2000 Nft's to the public. Each Nft is worth 0.02% ownership of Shareholders Gallery.</p>
-
-            <p className="text-white fw-800">As a Shareholder you will benifit from:</p>
-
-            <p className="text-white fw-800 mb-0">1. All sales from each Nft we launch (new Nft launch every 3 months)</p>
-            <p className="text-white fw-800 mb-0">2. Residules when sold Nft's are re-sold</p>
-            <p className="text-white fw-800 mb-0">3. All merchanidise sold by Shareholders Gallery</p>
-            <p className="text-white fw-800 mb-0">4. Growing value of the Nft's</p>
-
-            <div className="buttons">
-              <Link to="#" className="btn1">Road map</Link>
-              <Link to="#" className="btn3">Become a whitelist!</Link>
-            </div>
+            <p className="text-white fw-800">
+              Introducting the world's first Nft Gallery Lanuching as an Nft!<br/><br/>
+              In addition to being ver rare, this opportunity is also very limited.<br/>
+              Shareholders Gallery is selling 2000 Nft's to the public. Each Nft is worth 0.02% ownership of Shareholders Gallery.<br/><br/><br/>
+              As a Shareholder you will benifit from:<br/><br/>
+              1. All sales from each Nft we launch (new Nft launch every 3 months)<br/>
+              2. Residules when sold Nft's are re-sold<br/>
+              3. All merchanidise sold by Shareholders Gallery<br/>
+              4. Growing value of the Nft's<br/>
+            </p>
           </div>
         </Col>
-        <Col lg={6} md={6} sm={12} className="col-xs-12">
+        <Col lg={7} md={6} sm={12} className="col-xs-12">
           <div className="about-img hover-effect-3d">
             <div>
               <img id="atvimg_3198967185336128" src={aboutimg} element="Image3DComponent" alt="about" />
