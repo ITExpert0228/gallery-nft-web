@@ -51,7 +51,7 @@ class Roadmap extends Component {
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">20 Random Shareholder Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholder Gallery NFT's.  Once the 20 NFT's are depleated the giveaway will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">20 Random Shareholders Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholders Gallery NFT's.  Once the 20 NFT's are depleted the giveaway will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-edit "></i></span>
                       <div className="mid-icons"></div>

@@ -29,7 +29,7 @@ class Faqs extends Component {
                 </Card>
 
                 <Card title="3. WHAT PERCENTAGE OF THE COMPANY DOES 1 NFT BUY ME?" adClass="card-accordion">
-                  <p>1 Nft is worth a 50th of 1% of the company.
+                  <p>1 NFT is worth 0.02% ownership in Shareholders Gallery.
                   </p>
                 </Card>
 
@@ -75,17 +75,17 @@ class Faqs extends Component {
                   </p>
                 </Card>
 
-                <Card title="11. WHAT ARE THE DIFFERENT WAY I CAN EARN MONEY?" adClass="card-accordion">
+                <Card title="11. WHAT ARE THE DIFFERENT WAYS I CAN EARN MONEY?" adClass="card-accordion">
                   <p>
                   1) You will earn a profit from every Nft launch. <br/><br/>
-                  2) You will earn a residule profit every time a sold Nft get's re-sold.<br/><br/>
-                  3) You will earn money from any merchandise sold<br/><br/>
-                  4) You also earn when the value of this Nft goes up. (most people are not going to sell these. Supply and demand dictates and a 10x on your value is not unpresidented.)
+                  2) You will earn a residual profit every time a sold Nft get's re-sold.<br/><br/>
+                  3) You will earn money from any merchandise sold.<br/><br/>
+                  4) You will also earn when the value of the Nft goes up.
                   </p>
                 </Card>
 
                 <Card title="12. WHEN DO WE START EARNING RESIDUALS?" adClass="card-accordion">
-                  <p>When an already sold Nft is re-sold on the open market via Opensea, we as a company earn 10% and you as a share holder will also earn a percentage. Remember, its not just the first time they re-sell...  It's every time for ever...  That is powerful...
+                  <p>When an already sold Nft is re-sold on the open market via Opensea, we as a company earn 10% and you as a shareholder will also earn a percentage. Remember, its not just the first time they re-sell...  It's every time for ever...  That is powerful...
                   <br/><br/>
                   Each time we launch a new Nft, you will get a new 10,000 nft's that will start earning you residuals.
                   </p>
@@ -95,14 +95,14 @@ class Faqs extends Component {
                   <p>At this time we plan on launching a new Nft every 3 months for the forseeable future...<br/><br/>
 
                   We think that Killer Cubs alone can have 10 generations...<br/>
-                  Our next cool collection will be decided in our discord community and share holders owners will have a say in the direction the company goes as it pertains to new art collections...
+                  Our next cool collection will be decided in our discord community and shareholders gallery owners will have a say in the direction the company goes as it pertains to new art collections...
                   </p>
                 </Card>
 
-                <Card title="14. ONCE I BECOME A SHAREHOLDERS GALLERY OWNER, WHAT ARE MY RESPONSIBILITES?" adClass="card-accordion">
+                <Card title="14. ONCE I BECOME A SHAREHOLDERS GALLERY OWNER, WHAT ARE MY RESPONSIBILITIES?" adClass="card-accordion">
                   <p>This is 100% passive...  Once you buy in (meaning buy Nft's) you are a shareholder and you need not do anything but collect your money from the launches that are held every 3 months...<br/>
                   You do not need to spend any money on advertising, etc.  <br/>
-                  This is really what makes this opportunity simply irrisistable...<br/>
+                  This is really what makes this opportunity simply irresistible...<br/>
                   </p>
                 </Card>
               </Accordion>
