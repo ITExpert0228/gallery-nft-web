@@ -44,21 +44,21 @@ class Roadmap extends Component {
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">10 ETH GIVE AWAY</p>
+                        <p className="text-primary fw-600 f-20">10 ETH GIVEAWAY</p>
                         <p className="text-primary fw-600 f-20">We will give 50 random NFT holders 0.2 ETH each, as long as they are holding 1 or more Shareholders Gallery NFT's.<br/>(ETA on this drop is 2 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-check-square-o"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">20 Random Shareholder Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholder Gallery NFT's.  Once the 20 NFT's are depleated the give away will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">20 Random Shareholder Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholder Gallery NFT's.  Once the 20 NFT's are depleated the giveaway will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-edit "></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                      <p className="text-primary fw-600 f-20">5 ETH GIVE AWAY</p>
+                      <p className="text-primary fw-600 f-20">5 ETH GIVEAWAY</p>
                         <p className="text-primary fw-600 f-20">Top 25 people who help build our community via Discord, twitter etc will receive 0.2 ETH each.(ETA on this drop will be 5 weeks after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-university"></i></span>
@@ -85,7 +85,7 @@ class Roadmap extends Component {
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Introduction of the Shareholder Gallery Clubhouse. Hang out and kick back with your fellow Shareholder Gallery Members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Launching of the Shareholders Gallery clubhouse. Hang out and kick back with your fellow Shareholders Gallery members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>
