@@ -85,7 +85,7 @@ class Roadmap extends Component {
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Introduction of the Shareholder Gallery Clubhouse. Hang out and kick back with your fellow Shareholder Gallery Members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
+                        <p className="text-primary fw-600 f-20">Launching of the Shareholders Gallery clubhouse. Hang out and kick back with your fellow Shareholders Gallery members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li>
