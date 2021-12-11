@@ -45,7 +45,7 @@ class Tokens extends Component {
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Pre-Sale</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                <span className="token-target text-primary">Target to sell - 800 NFT's</span>
+                <span className="token-target text-primary">Target - to sell 800 NFT's</span>
                 <button className="right-btn">Price $500 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
                   <span className="percent head-font">40</span>
@@ -59,7 +59,7 @@ class Tokens extends Component {
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Phase 1</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                <span className="token-target text-primary">Target to sell - 1000 NFT's</span>
+                <span className="token-target text-primary">Target - to sell 1000 NFT's</span>
                 <button className="right-btn">Price $1000 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
                   <span className="percent head-font">50</span>
@@ -73,7 +73,7 @@ class Tokens extends Component {
             <div className="tokens w-100 ">
               <div className="token-name text-primary bg-white">Final Phase</div>
               <div className="token-body bg-secondary w-100 d-flex align-items-center justify-content-center flex-column">
-                <span className="token-target text-primary">Target to sell - 200 NFT's</span>
+                <span className="token-target text-primary">Target - to sell 200 NFT's</span>
                 <button className="right-btn">Price $1500 Per NFT</button>
                 <span className="easypiechart skill-circle bg-primary">
                   <span className="percent head-font">10</span>
