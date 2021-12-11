@@ -35,7 +35,7 @@ class Roadmap extends Component {
                     <li className="l-con pl-30">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20 pd-b35">Pre-sale: 800 Nft's - $500 each<br />
-                          Phase 1:  1000 Nft's - $100 each<br />
+                          Phase 1:  1000 Nft's - $1000 each<br />
                           Final Phase:  200 Nft's - $1500 each</p>
 
                         <p className="text-primary fw-600 f-20">1 NFT is equal to 0.02% ownership of Shareholders Gallery. 50 NFT's equal 1% ownership of Shareholders Gallery.</p>

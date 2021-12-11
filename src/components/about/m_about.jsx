@@ -15,7 +15,7 @@ class About extends Component {
               ABOUT SHAREHOLDERS GALLERY
             </h2>
             <p className="text-white fw-800">
-              Introducing the world's first Nft Gallery Lanuching as an Nft!<br/><br/>
+              Introducing the World's first Nft Gallery Launching as an Nft!<br/><br/>
               In addition to being very rare, this opportunity is also very limited.<br/>
               Shareholders Gallery is selling 2000 Nft's to the public. Each Nft is worth 0.02% ownership of Shareholders Gallery.<br/><br/><br/>
               As a Shareholder you will benifit from:<br/><br/>
