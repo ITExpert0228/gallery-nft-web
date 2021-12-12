@@ -76,6 +76,8 @@ class Header extends Component {
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
         <li><a className="nav-link" href="#faq">FAQS</a></li>
+        <li><a className="nav-link" href="https://twitter.com/shareholdersG" target="_blank"><i className="fab fa-twitter"></i></a></li>
+        <li><a className="nav-link" href="https://discord.gg/4QPxsNDA" target="_blank"><i className="fab fa-discord"></i></a></li>
       </ul>
     )
     return (

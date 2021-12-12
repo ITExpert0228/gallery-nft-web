@@ -47,13 +47,13 @@ class Roadmap extends Component {
                         <p className="text-primary fw-600 f-20">10 ETH GIVEAWAY</p>
                         <p className="text-primary fw-600 f-20">We will give 50 random NFT holders 0.2 ETH each, as long as they are holding 1 or more Shareholders Gallery NFT's.<br/>(ETA on this drop is 2 weeks after the sale ends)</p>
                       </div>
-                      <span><i className="fa fa-check-square-o"></i></span>
+                      <span><i className="fas fa-gifts"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">20 Random Shareholders Gallery NFT's will be withheld from the sale and randomly given out to anyone holding 1 or more Shareholders Gallery NFT's.  Once the 20 NFT's are depleted the giveaway will end. (ETA on this drop will be 3 weeks after the sale ends)</p>
                       </div>
-                      <span><i className="fa fa-edit "></i></span>
+                      <span><i className="fas fa-hand-holding-heart"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
@@ -61,33 +61,33 @@ class Roadmap extends Component {
                       <p className="text-primary fw-600 f-20">5 ETH GIVEAWAY</p>
                         <p className="text-primary fw-600 f-20">Top 25 people who help build our community via Discord, twitter etc will receive 0.2 ETH each.(ETA on this drop will be 5 weeks after the sale ends)</p>
                       </div>
-                      <span><i className="fa fa-university"></i></span>
+                      <span><i className="fas fa-gift"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">Launch of Killer Cubs Generation 1 Featuring "Little Jay" ( ETA 2.22.2022 )</p>
                       </div>
-                      <span><i className="fa fa-bell"></i></span>
+                      <span><i className="fas fa-rocket"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 2 Featuring "Little Mikey" ( ETA 5.22.2022 )</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fas fa-rocket"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 3 Featuring "Little LeatherFace" ( ETA 8.22.2022 )</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fas fa-rocket"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
                         <p className="text-primary fw-600 f-20">Launching of the Shareholders Gallery clubhouse. Hang out and kick back with your fellow Shareholders Gallery members in the Metaverse. (ETA 9-12 months after the sale ends)</p>
                       </div>
-                      <span><i className="fa fa-paw"></i></span>
+                      <span><i className="fas fa-rocket"></i></span>
                     </li>
                     {/* <li className="l-con pl-30">
                       <div className="cont">
