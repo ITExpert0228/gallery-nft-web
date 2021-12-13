@@ -65,20 +65,20 @@ class Roadmap extends Component {
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Launch of <a href="https://killercubs.com" target="_blank">Killer Cubs</a> Generation 1 Featuring "Little Jay" ( ETA 2.22.2022 )</p>
+                        <p className="text-primary fw-600 f-20">Launch of Killer Cubs Generation 1 Featuring "Little Jay" ( ETA 2.22.2022 )</p>
                       </div>
                       <span><i className="fas fa-rocket"></i></span>
                       <div className="mid-icons"></div>
                     </li>
                     <li className="r-con">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Launch <a href="https://killercubs.com" target="_blank">Killer Cubs</a> Generation 2 Featuring "Little Mikey" ( ETA 5.22.2022 )</p>
+                        <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 2 Featuring "Little Mikey" ( ETA 5.22.2022 )</p>
                       </div>
                       <span><i className="fas fa-rocket"></i></span>
                     </li>
                     <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20">Launch <a href="https://killercubs.com" target="_blank">Killer Cubs</a> Generation 3 Featuring "Little LeatherFace" ( ETA 8.22.2022 )</p>
+                        <p className="text-primary fw-600 f-20">Launch Killer Cubs Generation 3 Featuring "Little LeatherFace" ( ETA 8.22.2022 )</p>
                       </div>
                       <span><i className="fas fa-rocket"></i></span>
                       <div className="mid-icons"></div>
@@ -91,7 +91,7 @@ class Roadmap extends Component {
                     </li>
                     {/* <li className="l-con pl-30">
                       <div className="cont">
-                        <p className="text-primary fw-600 f-20"><a href="https://killercubs.com" target="_blank">Killer Cubs</a> Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
+                        <p className="text-primary fw-600 f-20">Killer Cubs Gen 2 teaser: Featuring ("Little Mikey" and "Little Lecter")</p>
                       </div>
                       <span><i className="fa fa-paw"></i></span>
                     </li> */}
