@@ -18,7 +18,7 @@ class About extends Component {
               Introducing the World's first Nft Gallery Launching as an Nft!<br/><br/>
               In addition to being very rare, this opportunity is also very limited.<br/>
               Shareholders Gallery is selling 2000 Nft's to the public. Each Nft is worth 0.02% ownership of Shareholders Gallery.<br/><br/><br/>
-              As a Shareholder you will benifit from:<br/><br/>
+              As a Shareholder you will benefit from:<br/><br/>
               1. All sales from each Nft we launch (new Nft launch every 3 months)<br/>
               2. Residuals when sold Nft's are re-sold<br/>
               3. All merchandise sold by Shareholders Gallery<br/>
