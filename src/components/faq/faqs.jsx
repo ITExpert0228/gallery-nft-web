@@ -47,7 +47,7 @@ class Faqs extends Component {
                 <Card title="6. WHEN WILL SHAREHOLDERS GALLERY LAUNCH IT'S FIRST PROJECT NFT?  EXAMPLE KILLER CUBS..." adClass="card-accordion">
                   <p>Shareholders Galleries first launch will be 
                   </p>
-                  <p>Killer Cubs Nft Collection: <br/>
+                  <p><a href="https://killercubs.com" target="_blank">Killer Cubs</a> Nft Collection: <br/>
                   Generation 1: Featuring Little Jay, on 2.22.22- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total 10,000 Nft's<br/>
                   Generation 2: Featuring Little Mikey, on 5.22.22- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total 10,000 Nft's<br/>
                   Generation 3: Featuring Little LeatherFace 8.22.22- &nbsp;Total 10,000 Nft's<br/>
@@ -94,7 +94,7 @@ class Faqs extends Component {
                 <Card title="13. HOW MANY NFT'S WILL YOU LAUNCH?" adClass="card-accordion">
                   <p>At this time we plan on launching a new Nft every 3 months for the forseeable future...<br/><br/>
 
-                  We think that Killer Cubs alone can have 10 generations...<br/>
+                  We think that <a href="https://killercubs.com" target="_blank">Killer Cubs</a> alone can have 10 generations...<br/>
                   Our next cool collection will be decided in our discord community and shareholders gallery owners will have a say in the direction the company goes as it pertains to new art collections...
                   </p>
                 </Card>
