@@ -78,7 +78,7 @@ class MainSlider extends Component {
   render() {
     const data = [
       {
-        title: "LAUNCHING",
+        title: "Pre-Sale Begins",
         btn1: 'MINT',
         // btn2: 'Become a Whitelist!'
       },
