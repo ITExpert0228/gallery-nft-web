@@ -215,6 +215,7 @@ body {
 
 .slider-area .slider-content h2 {
   margin: 1px 0 5px;
+  font-size: 32px;
 }
 
 .slider a.previousButton, .slider a.nextButton {
@@ -700,7 +701,7 @@ header {
   animation-delay: 1.8s;
   transition-delay: 0.9s;
   opacity: 1;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .token-target {
   margin-bottom: 35px;
