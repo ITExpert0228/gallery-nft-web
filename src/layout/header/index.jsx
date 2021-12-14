@@ -81,7 +81,7 @@ class Header extends Component {
       </ul>
     )
     return (
-      <div id="default" className="wd_scroll_wrap wd_scroll">
+      <div id="default" className="wd_scroll_wrap wd_scroll" style={{ zIndex: '1000', position: 'relative' }}>
         <div className="header-top bg-primary"></div>
         <div className="horizon-divider bg-secondary"></div>
 

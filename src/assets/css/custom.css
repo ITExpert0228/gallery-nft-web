@@ -716,3 +716,128 @@ header {
 .about-content p {
   font-size:20px;
 }
+
+
+.banner {
+  position: relative;
+}
+
+.banner-layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-overlay:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgb(3 29 36 / 70%);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #F2D969;
+}
+
+.border-bottm-width-7 {
+  border-bottom-width: 7px;
+}
+
+.connection-group > * {
+  height: 70px;
+}
+
+.connection-group .form-control {
+  margin: 0 30px;
+  font-size: 20px;
+  min-width: 300px;
+}
+
+.btn-gradient {
+  background-image: linear-gradient( #33bad3 0%, #0c505d 100%);
+  transition: background-image 0.5s ease-in-out 0s;
+}
+.btn-gradient:focus {
+  color: #f0cda1;
+}
+.btn-gradient:hover {
+  color: #fff;
+  background-image: linear-gradient(  #0c505d 0%, #33bad3 100%);
+}
+
+.btn-type-one {
+  border: 0;
+  color: #f0cda1;
+  min-width: 250px;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.mint-page .banner img {
+  min-height: 1000px;
+  object-fit: cover;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+	-webkit-appearance: none
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  font-size: 12px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
