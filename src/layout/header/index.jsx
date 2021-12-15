@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import logo from '../../assets/images/logo/logo.png';
 //import flag from '../../assets/images/icons/12.png';
 import Config from '../../configure';
@@ -68,7 +68,20 @@ class Header extends Component {
 
       });
     });
+    // let navigation = (
+    //   <ul>
+    //     <li><a className="nav-link" href="#default">Home</a></li>
+    //     <li><a className="nav-link" href="#about">About</a></li>
+    //     <li><a className="nav-link" href="#info">How To Earn</a></li>
+    //     <li><a className="nav-link" href="#tokens">Tokens</a></li>
+    //     <li><a className="nav-link" href="#road_map">Road Map</a></li>
+    //     <li><a className="nav-link" href="#faq">FAQS</a></li>
+    //     <li><a className="nav-link" href="https://twitter.com/shareholdersG" target="_blank"><i className="fab fa-twitter"></i></a></li>
+    //     <li><a className="nav-link" href="https://discord.gg/4QPxsNDA" target="_blank"><i className="fab fa-discord"></i></a></li>
+    //   </ul>
+    // )
     let navigation = (
+      this.props.location.pathname == '/' ?
       <ul>
         <li><a className="nav-link" href="#default">Home</a></li>
         <li><a className="nav-link" href="#about">About</a></li>
@@ -76,6 +89,17 @@ class Header extends Component {
         <li><a className="nav-link" href="#tokens">Tokens</a></li>
         <li><a className="nav-link" href="#road_map">Road Map</a></li>
         <li><a className="nav-link" href="#faq">FAQS</a></li>
+        <li><a className="nav-link" href="https://twitter.com/shareholdersG" target="_blank"><i className="fab fa-twitter"></i></a></li>
+        <li><a className="nav-link" href="https://discord.gg/4QPxsNDA" target="_blank"><i className="fab fa-discord"></i></a></li>
+      </ul>
+      :
+      <ul>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#default">Home</Link></li>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#about">About</Link></li>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#info">How To Earn</Link></li>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#tokens">Tokens</Link></li>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#road_map">Road Map</Link></li>
+        <li><Link className="nav-link" to={Config.defaultPath} href="#faq">FAQS</Link></li>
         <li><a className="nav-link" href="https://twitter.com/shareholdersG" target="_blank"><i className="fab fa-twitter"></i></a></li>
         <li><a className="nav-link" href="https://discord.gg/4QPxsNDA" target="_blank"><i className="fab fa-discord"></i></a></li>
       </ul>
@@ -156,4 +180,5 @@ class Header extends Component {
   }
 }
 
-export default Header;
+// export default Header;
+export default withRouter(Header);
