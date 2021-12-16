@@ -26,7 +26,7 @@
 }
 @media only screen and (min-width: 1600px) {
     .slider-area .container {
-        width: 1094px;
+        width: 1200px;
     }
     .about-area .container {
         width: 1294px;
@@ -35,13 +35,14 @@
 /* Extra Large Devices, Wide Screens */
 @media only screen and (min-width: 1900px) {
     .slider-area .container {
-        width: 1700px;
+        width: 1490px;
+    }
+    #clockdiv, #clockdiv2 {
+        -webkit-transform: translate(22%, 0px);
+        transform: translate(22%, 0px);
     }
     .slider-area .slider-content{
         left:210px;
-    }
-    #clockdiv, #clockdiv2 {
-        transform: translate(35%, 0px);
     }
     .btn_top_fold_wrapper{
         right:140px;
