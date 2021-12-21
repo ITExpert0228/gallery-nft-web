@@ -105,6 +105,28 @@ class Faqs extends Component {
                   This is really what makes this opportunity simply irresistible...<br/>
                   </p>
                 </Card>
+                <Card title="15. WHEN DID YOU START WORKING ON THE SHAREHOLDER GALLERY PROJECT?" adClass="card-accordion">
+                  <p>From April 2021 - December 2021 we developed the site ShareholdersGallery.com.<br/>
+                  From May 2021 - June 2021 we worked on the Smart Contracts.<br/>
+                  From June 2021 - August 2021 we worked on the NFT design.<br/>
+                  Once the site was ready we began our marketing campaign. ( currently still in progress.)<br/>
+                  We accomplished all of this whilst simultaneously creating the KILLERCUBS.COM site, smart contracts and all the NFT art associated with that project.<br/>
+                  Completion of both sites concluded Early December.<br/>
+                  The corporation was formed as an S corp based out of New York. The entity name is Shareholders Gallery Inc.<br/>
+                  </p>
+                </Card>
+                <Card title="16. WHO OWNS SHAREHOLDER GALLERY?" adClass="card-accordion">
+                  <p>Shareholders Gallery's CEO is Raymond Malachovsky.  The corporation is called Shareholders Gallery Inc. Formed in December 2021.
+                  </p>
+                </Card>
+                <Card title="17. HOW DO I BUY MINT THE NFT'S?" adClass="card-accordion">
+                  <p>
+                    1. Create your wallet such as metamask, wallet connect, etc. <br/>
+                    2. Deposit ETH into your wallet(by clicking BUY in your metamask account) <br/>
+                    3. Connect your wallet to our platform by clicking Connect button. <br/>
+                    4. Now you are ready, enter an amount to buy and click MINT <br/>
+                  </p>
+                </Card>
               </Accordion>
             </div>
           </Col>
