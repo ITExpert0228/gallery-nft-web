@@ -2,11 +2,23 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import ReactWOW from 'react-wow';
-import aboutimg from '../../assets/images/about/1.png';
-
+import VideoPlayer from '../videojs/videoJS';
+import poster from '../../assets/videos/about.png';
+import video from '../../assets/videos/about.mp4';
+import styles from './about.css';
 class About extends Component {
 
   render() {
+    const videoJsOptions = {
+      poster: `${poster}`,
+      aspectRatio: "16:9",
+      autoplay: false,
+      controls: true,
+      sources: [{
+        src: `${video}`,
+        type: 'video/mp4'
+      }]
+    }
     let page = (
       <Row>
         <Col lg={5} md={6} sm={12} className="col-xs-12">
@@ -27,10 +39,9 @@ class About extends Component {
           </div>
         </Col>
         <Col lg={7} md={6} sm={12} className="col-xs-12">
-          <div className="about-img hover-effect-3d">
-            <div>
-              <img id="atvimg_3198967185336128" src={aboutimg} element="Image3DComponent" alt="about" />
-            </div>
+          <div className="aboutvideo">
+              {/* <img id="atvimg_3198967185336128" src={aboutimg} element="Image3DComponent" alt="about" /> */}
+              <VideoPlayer { ...videoJsOptions } />
           </div>
         </Col>
       </Row>
@@ -63,7 +74,7 @@ class About extends Component {
           <Col lg={6} md={6} sm={12} className="col-xs-12">
             <ReactWOW animation={this.props.animate} duration="1s">
               <div className="about-img">
-                <img src={aboutimg} alt="about" />
+                {/* <img src={aboutimg} alt="about" /> */}
               </div>
             </ReactWOW>
           </Col>
