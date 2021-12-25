@@ -5,7 +5,7 @@ import ReactWOW from 'react-wow';
 import VideoPlayer from '../videojs/videoJS';
 import poster from '../../assets/videos/about.png';
 import video from '../../assets/videos/about.mp4';
-import styles from './about.css';
+import './about.css';
 class About extends Component {
 
   render() {
