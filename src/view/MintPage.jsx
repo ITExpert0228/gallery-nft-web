@@ -7,6 +7,8 @@ import sample4 from '../assets/images/gallery/4.png';
 import WalletModal from '../components/walletmodal/walletmodal';
 import {handleSignificantDecimals, convertAmountFromRawNumber} from '../components/walletmodal/helpers/bignumber';
 
+import shgContract from '../contracts/ShareholdersGallery.json';
+
 toast.configure()
 
 class MintPage extends Component {
@@ -14,7 +16,6 @@ class MintPage extends Component {
         super(props);
 
         this.state = {
-            value: '0x12434343434333',
             copied: false,
             count: 5,
             connected: false,
@@ -22,7 +23,12 @@ class MintPage extends Component {
             symbol: '',
             balance: '',
             network: '',
-            web3: null
+            web3: null,
+            phase: 'PRE-SALE',
+            phase_price: 0,
+            phase_qty: 0,
+            target_supply: '',
+            contract_address: shgContract.address,
         };
 
         this.countHandler.bind(this);
@@ -72,17 +78,46 @@ class MintPage extends Component {
         }, 2000);
     }
 
-    getWeb3Details(param) {
+    getWeb3Details =  async (param) => {
+        if(!param) return;
         const _symbol = param._balance.length > 0 ? param._balance[0].symbol : '';
         const _balance = param._balance.length > 0 ? `${handleSignificantDecimals(convertAmountFromRawNumber(param._balance[0].balance), 8)}` : '';
-        console.log(param._web3);
-
         this.setState({
             address: param._address, 
             network: param._network,
             symbol: _symbol,
             balance: _balance,
             web3: param._web3});
+        
+
+        const web3 = param._web3;
+        if(!web3) return;
+        // Getter current phase
+        const shg = await new web3.eth.Contract(
+            shgContract.abi,
+            shgContract.address,
+            );
+        const current = await shg.methods.currentPhaseNumber().call();
+        console.log(current);
+
+        let phase='';
+        if(current == 1)
+            phase = "PRE-SALE"; //this.setState({phase: "PRE-SALE"});
+        else if(current == 2)
+            phase = "PHASE 1"; //this.setState({phase: "PHASE 1"});
+        else if(current == 3)
+            phase = "FINAL PHASE"; //this.setState({phase: "FINAL PHASE"});
+        // Getter Phase details
+        const curPhase = await shg.methods.currentPhase().call();
+        console.log(curPhase.price, curPhase.qty);
+        this.setState(
+            {
+                phase: phase,
+                phase_price: curPhase.price,
+                phase_qty: curPhase.qty
+            }
+        )
+        
     }
 
     render() {
@@ -91,12 +126,10 @@ class MintPage extends Component {
                 toast('The Number is Invalid')
             }
         }
-
         const data = {
             current: "PRE-SALE",
             price: "500",
             targetSupply: "800",
-            contactAddress: "0x12434343434333",
             discount: [
                 {
                     amount: '10',
@@ -122,14 +155,18 @@ class MintPage extends Component {
                         </figure>
 
                         <div className="banner-layer text-center pd-t140 d-flex align-items-center justify-content-center flex-column w-100">
-                            <h1 className="fw-800 f-72 text-white border-bottom border-bottm-width-7">CURRENT : {data.current}</h1>
-                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Price: ${data.price} each</h2>
-                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Target Supply: {data.targetSupply} NFT's</h2>
+                            <h1 className="fw-800 f-72 text-white border-bottom border-bottm-width-7">CURRENT : {this.state.phase}</h1>
+                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Price: ${this.state.phase_price} each</h2>
+                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Target Supply: {this.state.phase_qty} NFT's</h2>
                             <h2 className="fw-800 f-40 text-white d-flex align-items-center address">
                                 <span className="d-flex align-items-center flex-md-row flex-column">Contract Address:
                                     <span className='ml-2'>
-                                        {data.contactAddress}
-                                        <CopyToClipboard text={this.state.value}
+                                        <a href="https://etherscan.io/address/0xe2157431890981110379aCE8d34646BB8e0a91CA" target="_blank">
+                                            {
+                                                this.state.contract_address.substring(0, 10) + " ... " + this.state.contract_address.substring(36)
+                                            }
+                                        </a>
+                                        <CopyToClipboard text={this.state.contract_address}
                                             onCopy={() => this.setState({ copied: true })}>
                                             <a href="#" className="popup" onClick={e => this.tooltipHandler(e)}>
                                                 <i className="fas fa-copy text-white mr-10"></i>
