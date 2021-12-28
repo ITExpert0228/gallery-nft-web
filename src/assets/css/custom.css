@@ -9,8 +9,8 @@ body {
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
-  overflow-x: hidden;
-  background: #10122d;
+  overflow-x: unset;
+  background: #052743;
 }
 .menu-area .menu-navs {
   display: inline-block;
@@ -715,4 +715,188 @@ header {
 }
 .about-content p {
   font-size:20px;
+}
+
+
+.banner {
+}
+
+.banner-layer {
+
+}
+
+.bg-overlay:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgb(3 29 36 / 70%);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #F2D969;
+}
+
+.border-bottm-width-7 {
+  border-bottom-width: 7px;
+}
+
+.connection-group > * {
+  height: 70px;
+}
+
+.connection-group .form-control {
+  margin: 0 30px;
+  font-size: 20px;
+  min-width: 300px;
+}
+
+.btn-gradient {
+  background-color: rgb(242, 217, 105);
+  background-image: linear-gradient(#f2d969,#8b761c);
+  transition: background-image 0.5s ease-in-out 0s;
+}
+.btn-gradient:focus {
+  color: #ffffff;
+}
+.btn-gradient:hover {
+  color: #ffffff;
+  background-image: linear-gradient(#f3e193,#d3b531);
+}
+
+.btn-type-one {
+  border: 0;
+  color: #ffffff;
+  min-width: 250px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.mint-page .banner img {
+  min-height: 1000px;
+  object-fit: cover;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+	-webkit-appearance: none
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  font-size: 12px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+  min-width: 300px;
+  font-size: 35px;
+  line-height: 1.428571;
+  color: #1c3c85;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 70px;
+  padding: 0;
+  width: 38px;
+  display: inline-block;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 70px;
+  text-align: center;
+  display: inline-block;
+  resize: vertical;
+  max-width: 160px;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
 }

@@ -126,7 +126,7 @@ class MainSlider extends Component {
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="btn_top_fold_wrapper">
                 <div className="center">
-                  <Link to="#" className="btn2" >{obj.btn1}</Link>
+                  <Link to="nft-sale" className="btn2" >{obj.btn1}</Link>
                   {/* <Link to="#" className="btn2" >{obj.btn2}</Link> */}
                 </div>
               </div>
