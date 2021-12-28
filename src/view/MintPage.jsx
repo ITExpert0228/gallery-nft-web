@@ -14,6 +14,8 @@ class MintPage extends Component {
     constructor(props) {
         super(props);
         const addr = process.env.REACT_APP_LIVE > 0 ? process.env.REACT_APP_LIVE_ADDR : process.env.REACT_APP_TEST_ADDR;
+        const link = process.env.REACT_APP_LIVE > 0 ? "https://etherscan.io/address/" : "https://rinkeby.etherscan.io/address/";
+        const addr_link = link + addr;
         this.state = {
             copied: false,
             count: 5,
@@ -24,10 +26,11 @@ class MintPage extends Component {
             network: '',
             web3: null,
             phase: 'PRE-SALE',
-            phase_price: 0,
-            phase_qty: 0,
+            phase_price: 500,
+            phase_qty: 800,
             target_supply: '',
             contract_address: addr,
+            addr_link: addr_link,
         };
 
         this.countHandler.bind(this);
@@ -184,7 +187,7 @@ class MintPage extends Component {
                             <h2 className="fw-800 f-40 text-white d-flex align-items-center address">
                                 <span className="d-flex align-items-center flex-md-row flex-column">Contract Address:&nbsp;&nbsp;
                                     <span className='ml-2'>
-                                        <a href="https://etherscan.io/address/0xe2157431890981110379aCE8d34646BB8e0a91CA" target="_blank">
+                                        <a href={this.state.addr_link} target="_blank">
                                             {
                                                 this.state.contract_address.substring(0, 10) + " ... " + this.state.contract_address.substring(36)
                                             }
