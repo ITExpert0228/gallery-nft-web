@@ -176,10 +176,10 @@ class MintPage extends Component {
 
                         <div className="banner-layer text-center pd-t140 d-flex align-items-center justify-content-center flex-column w-100">
                             <h1 className="fw-800 f-72 text-white border-bottom border-bottm-width-7">CURRENT : {this.state.phase}</h1>
-                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Price: ${this.state.phase_price} each</h2>
-                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">Target Supply: {this.state.phase_qty} NFT's</h2>
+                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">PRICE:&nbsp;&nbsp;<span>${this.state.phase_price}</span> EACH</h2>
+                            <h2 className="fw-800 f-40 text-white mb-0 pd-b10">TARGET SUPPLY:&nbsp;&nbsp;<span>{this.state.phase_qty}</span></h2>
                             <h2 className="fw-800 f-40 text-white d-flex align-items-center address">
-                                <span className="d-flex align-items-center flex-md-row flex-column">Contract Address:
+                                <span className="d-flex align-items-center flex-md-row flex-column">Contract Address:&nbsp;&nbsp;
                                     <span className='ml-2'>
                                         <a href="https://etherscan.io/address/0xe2157431890981110379aCE8d34646BB8e0a91CA" target="_blank">
                                             {
@@ -197,12 +197,11 @@ class MintPage extends Component {
                                 </span>
                             </h2>
 
-                            <div className="connection-group d-flex align-items-center justify-content-center pd-b60">
-                               
-                                {/* <input type="text" className="form-control" placeholder="Address" value={this.state.address} readOnly/>
+                            {/* <div className="connection-group d-flex align-items-center justify-content-center pd-b60">
+                                <input type="text" className="form-control" placeholder="Address" value={this.state.address} readOnly/>
                                 <input type="text" className="form-control" placeholder="ChainId" value={this.state.network} readOnly/>
-                                <input type="text" className="form-control" placeholder="Balance" value={this.state.balance + this.state.symbol} readOnly/> */}
-                            </div>
+                                <input type="text" className="form-control" placeholder="Balance" value={this.state.balance + this.state.symbol} readOnly/>
+                            </div> */}
 
                             <div className="connection-group d-flex align-items-center justify-content-center pd-b60">
                                 <WalletModal getInfoCallback={param => this.getWeb3Details(param)} />
@@ -218,7 +217,7 @@ class MintPage extends Component {
                                 <a href="#" className="btn btn-gradient btn-type-one ml-4 d-flex align-items-center justify-content-center" onClick={e => { e.preventDefault(); this.mintBuy(); }}>MINT</a>
                             </div>
 
-                            <h4 className="fw-400 f-24 text-white mb-0">By buying in bulk, Save even more</h4>
+                            <h4 className="fw-400 f-24 text-white mb-0">Buy in bulk, Save even more</h4>
                             {
                                 data.discount.map((item, index) => (
                                     <h4 className="fw-400 f-24 text-white mb-0" key={'Item:' + index}>{item.amount}% discount for {item.nft}+ NFT's</h4>
