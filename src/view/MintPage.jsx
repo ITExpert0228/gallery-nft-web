@@ -120,16 +120,31 @@ class MintPage extends Component {
         
     }
 
-    render() {
-        const notify = () => {
-            if (this.state.count < 0) {
-                toast('The Number is Invalid')
-            }
+    mintBuy =  async () => {
+        if(!this.state.web3) {
+            toast('Please connect your wallet on the platform');
+            return;
         }
+        let nft_count = this.state.count;
+        if(!nft_count){
+            toast('The amount is invalid');
+            return;
+        }
+    
+        const web3 = this.state.web3;
+        const shg = await new web3.eth.Contract(shgContract.abi, shgContract.address);
+        const wei_amount = await shg.methods.discountPrice(nft_count).call();
+        try {
+            await shg.methods.buyPhase(nft_count).send({from: this.state.address,value:wei_amount, gas: 5000000});
+            toast('Congratulation! You have successfully purchased. check your SHG balance in your wallet.');
+        } catch (error) {
+            toast(error.message);
+        }
+        
+    }
+
+    render() {
         const data = {
-            current: "PRE-SALE",
-            price: "500",
-            targetSupply: "800",
             discount: [
                 {
                     amount: '10',
@@ -195,7 +210,7 @@ class MintPage extends Component {
                                     <input type="button" value="+" className="button-plus" data-field="quantity" onClick={(e) => {this.incrementValue(e)}} />
                                 </div>
 
-                                <a href="#" className="btn btn-gradient btn-type-one ml-4 d-flex align-items-center justify-content-center" onClick={e => { e.preventDefault(); notify(); }}>MINT</a>
+                                <a href="#" className="btn btn-gradient btn-type-one ml-4 d-flex align-items-center justify-content-center" onClick={e => { e.preventDefault(); this.mintBuy(); }}>MINT</a>
                             </div>
 
                             <h4 className="fw-400 f-24 text-white mb-0">By buying in bulk, Save even more</h4>
