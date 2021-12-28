@@ -149,7 +149,7 @@ class MintPage extends Component {
             await shg.methods.buyPhase(nft_count).send({from: this.state.address,value:wei_amount, gas: 400000});
             toast('Congratulation! You have successfully purchased. check your SHG balance in your wallet.');
         } catch (error) {
-            toast("Invalid network: Please connect to a correct ethereum network in your wallet." + error.message);
+            toast(error.message);
         }
         
     }
