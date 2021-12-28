@@ -126,8 +126,7 @@ class MainSlider extends Component {
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="btn_top_fold_wrapper">
                 <div className="center">
-                  <Link to="nft-sale" className="btn2" >{obj.btn1}</Link>
-                  {/* <Link to="#" className="btn2" >{obj.btn2}</Link> */}
+                { process.env.REACT_APP_ENABLE_MINT > 0 ? (<Link to="nft-sale" className="btn2" >{obj.btn1}</Link>) : (<Link to="#" className="btn2" >{obj.btn1}</Link>)}
                 </div>
               </div>
             </Col>
