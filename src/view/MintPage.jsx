@@ -13,7 +13,7 @@ toast.configure()
 class MintPage extends Component {
     constructor(props) {
         super(props);
-
+        const addr = process.env.REACT_APP_LIVE > 0 ? process.env.REACT_APP_LIVE_ADDR : process.env.REACT_APP_TEST_ADDR;
         this.state = {
             copied: false,
             count: 5,
@@ -27,7 +27,7 @@ class MintPage extends Component {
             phase_price: 0,
             phase_qty: 0,
             target_supply: '',
-            contract_address: shgContract.address,
+            contract_address: addr,
         };
 
         this.countHandler.bind(this);
@@ -79,44 +79,47 @@ class MintPage extends Component {
 
     getWeb3Details =  async (param) => {
         if(!param) return;
-        const _symbol = param._balance.length > 0 ? param._balance[0].symbol : '';
-        const _balance = param._balance.length > 0 ? `${handleSignificantDecimals(convertAmountFromRawNumber(param._balance[0].balance), 8)}` : '';
-        this.setState({
-            address: param._address, 
-            network: param._network,
-            symbol: _symbol,
-            balance: _balance,
-            web3: param._web3});
-        
-
-        const web3 = param._web3;
-        if(!web3) return;
-        // Getter current phase
-        const shg = await new web3.eth.Contract(
-            shgContract.abi,
-            shgContract.address,
+        try {
+            const _symbol = param._balance.length > 0 ? param._balance[0].symbol : '';
+            const _balance = param._balance.length > 0 ? `${handleSignificantDecimals(convertAmountFromRawNumber(param._balance[0].balance), 8)}` : '';
+            this.setState({
+                address: param._address, 
+                network: param._network,
+                symbol: _symbol,
+                balance: _balance,
+                web3: param._web3});
+            
+    
+            const web3 = param._web3;
+            if(!web3) return;
+            // Getter current phase
+            const shg = await new web3.eth.Contract(
+                shgContract.abi,
+                this.state.contract_address
+                );
+            const current = await shg.methods.currentPhaseNumber().call();
+            console.log("Current Phase", current);
+    
+            let phase='';
+            if(current == 1)
+                phase = "PRE-SALE"; //this.setState({phase: "PRE-SALE"});
+            else if(current == 2)
+                phase = "PHASE 1"; //this.setState({phase: "PHASE 1"});
+            else if(current == 3)
+                phase = "FINAL PHASE"; //this.setState({phase: "FINAL PHASE"});
+            // Getter Phase details
+            const curPhase = await shg.methods.currentPhase().call();
+            console.log("Price", curPhase.price, "Qty", curPhase.qty);
+            this.setState(
+                {
+                    phase: phase,
+                    phase_price: curPhase.price,
+                    phase_qty: curPhase.qty
+                }
             );
-        const current = await shg.methods.currentPhaseNumber().call();
-        console.log("Current Phase", current);
-
-        let phase='';
-        if(current == 1)
-            phase = "PRE-SALE"; //this.setState({phase: "PRE-SALE"});
-        else if(current == 2)
-            phase = "PHASE 1"; //this.setState({phase: "PHASE 1"});
-        else if(current == 3)
-            phase = "FINAL PHASE"; //this.setState({phase: "FINAL PHASE"});
-        // Getter Phase details
-        const curPhase = await shg.methods.currentPhase().call();
-        console.log("Price", curPhase.price, "Qty", curPhase.qty);
-        this.setState(
-            {
-                phase: phase,
-                phase_price: curPhase.price,
-                phase_qty: curPhase.qty
-            }
-        )
-        
+        } catch (error) {
+            toast("Invalid network: Please connect to a correct ethereum network in your wallet." + error.message);
+        }
     }
 
     mintBuy =  async () => {
@@ -136,14 +139,14 @@ class MintPage extends Component {
             return;
         }
     
-        const web3 = this.state.web3;
-        const shg = await new web3.eth.Contract(shgContract.abi, shgContract.address);
-        const wei_amount = await shg.methods.discountPrice(nft_count).call();
         try {
+            const web3 = this.state.web3;
+            const shg = await new web3.eth.Contract(shgContract.abi, this.state.contract_address);
+            const wei_amount = await shg.methods.discountPrice(nft_count).call();
             await shg.methods.buyPhase(nft_count).send({from: this.state.address,value:wei_amount, gas: 5000000});
             toast('Congratulation! You have successfully purchased. check your SHG balance in your wallet.');
         } catch (error) {
-            toast(error.message);
+            toast("Invalid network: Please connect to a correct ethereum network in your wallet." + error.message);
         }
         
     }
