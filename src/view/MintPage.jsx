@@ -229,6 +229,13 @@ class MintPage extends Component {
                                     <h4 className="fw-400 f-24 text-white mb-0" key={'Item:' + index}>{item.amount}% discount for {item.nft}+ NFT's</h4>
                                 ))
                             }
+                            <div className="pb-80 pd-t30">
+                                <h4 className="fw-400 f-24 text-white mb-0 text-left">1. You need to signup and add funds to your metamask.io account.</h4>
+                                <h4 className="fw-400 f-24 text-white mb-0 text-left">2. Come to our home page and click mint</h4>
+                                <h4 className="fw-400 f-24 text-white mb-0 text-left">3. Connect your metamask wallet to our site</h4>
+                                <h4 className="fw-400 f-24 text-white mb-0 text-left">4. Choose your number of NFT'S you want to buy</h4>
+                                <h4 className="fw-400 f-24 text-white mb-0 text-left">5. Click mint. </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
