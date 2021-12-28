@@ -121,12 +121,13 @@ class MainSlider extends Component {
               </div>
             </Col>
             <Col lg={6} md={6} sm={12} className="col-xs-12">
-              <Countdown timeTillDate="2021-12-28T18:59:00" timeFormat="YYYY-MM-DTHH:mm:ss" />
+              <Countdown timeTillDate="2021-12-28T00:00:00" timeFormat="YYYY-MM-DTHH:mm:ss" />
             </Col>
             <Col lg={3} md={3} sm={12} className="col-xs-12">
               <div className="btn_top_fold_wrapper">
                 <div className="center">
-                { process.env.REACT_APP_ENABLE_MINT > 0 ? (<Link to="nft-sale" className="btn2" >{obj.btn1}</Link>) : (<Link to="#" className="btn2" >{obj.btn1}</Link>)}
+                  <Link to="nft-sale" className="btn2" >{obj.btn1}</Link>
+                  {/* <Link to="#" className="btn2" >{obj.btn2}</Link> */}
                 </div>
               </div>
             </Col>

@@ -143,7 +143,7 @@ class MintPage extends Component {
             const web3 = this.state.web3;
             const shg = await new web3.eth.Contract(shgContract.abi, this.state.contract_address);
             const wei_amount = await shg.methods.discountPrice(nft_count).call();
-            await shg.methods.buyPhase(nft_count).send({from: this.state.address,value:wei_amount, gas: 5000000});
+            await shg.methods.buyPhase(nft_count).send({from: this.state.address,value:wei_amount, gas: 100000});
             toast('Congratulation! You have successfully purchased. check your SHG balance in your wallet.');
         } catch (error) {
             toast("Invalid network: Please connect to a correct ethereum network in your wallet." + error.message);
