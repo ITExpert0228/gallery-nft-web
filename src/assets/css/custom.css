@@ -9,8 +9,8 @@ body {
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
-  overflow-x: hidden;
-  background: #10122d;
+  overflow-x: unset;
+  background: #052743;
 }
 .menu-area .menu-navs {
   display: inline-block;
@@ -719,14 +719,10 @@ header {
 
 
 .banner {
-  position: relative;
 }
 
 .banner-layer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
 .bg-overlay:before {

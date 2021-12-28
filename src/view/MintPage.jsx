@@ -3,7 +3,6 @@ import { toast } from 'react-toastify';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import 'react-toastify/dist/ReactToastify.css';
 
-import sample4 from '../assets/images/gallery/4.png';
 import WalletModal from '../components/walletmodal/walletmodal';
 import {handleSignificantDecimals, convertAmountFromRawNumber} from '../components/walletmodal/helpers/bignumber';
 
@@ -98,7 +97,7 @@ class MintPage extends Component {
             shgContract.address,
             );
         const current = await shg.methods.currentPhaseNumber().call();
-        console.log(current);
+        console.log("Current Phase", current);
 
         let phase='';
         if(current == 1)
@@ -109,7 +108,7 @@ class MintPage extends Component {
             phase = "FINAL PHASE"; //this.setState({phase: "FINAL PHASE"});
         // Getter Phase details
         const curPhase = await shg.methods.currentPhase().call();
-        console.log(curPhase.price, curPhase.qty);
+        console.log("Price", curPhase.price, "Qty", curPhase.qty);
         this.setState(
             {
                 phase: phase,
@@ -121,6 +120,12 @@ class MintPage extends Component {
     }
 
     mintBuy =  async () => {
+        const enable_mint = process.env.REACT_APP_ENABLE_MINT;
+        console.log("Mintable", enable_mint);
+        if(!enable_mint || enable_mint <= 0) {
+            toast('Not yet active to buy/mint NFTs');
+            return;
+        }
         if(!this.state.web3) {
             toast('Please connect your wallet on the platform');
             return;
@@ -164,10 +169,10 @@ class MintPage extends Component {
         return (
             <Fragment>
                 <div className="mint-page">
-                    <div className="banner bg-overlay">
-                        <figure>
+                    <div className="banner">
+                        {/* <figure>
                             <img src={sample4} width="1903" height="800" alt="bg" />
-                        </figure>
+                        </figure> */}
 
                         <div className="banner-layer text-center pd-t140 d-flex align-items-center justify-content-center flex-column w-100">
                             <h1 className="fw-800 f-72 text-white border-bottom border-bottm-width-7">CURRENT : {this.state.phase}</h1>
