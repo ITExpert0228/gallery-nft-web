@@ -215,7 +215,7 @@ body {
 
 .slider-area .slider-content h2 {
   margin: 1px 0 5px;
-  font-size: 26px;
+  font-size: 55px;
 }
 
 .slider a.previousButton, .slider a.nextButton {
@@ -899,4 +899,10 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
   -webkit-appearance: none;
+}
+
+.btn_top_fold_wrapper .center .arrow{
+  font-weight: 900;
+  font-size: 150px;
+  color: #F2D969 !important;
 }
