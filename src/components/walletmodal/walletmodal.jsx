@@ -117,6 +117,7 @@ class WalletModal extends React.Component {
     constructor(props) {
         super(props);
         this.onConnect = async () => {
+            props.connecting();
             const provider = await this.web3Modal.connect();
             await this.subscribeProvider(provider);
             const web3 = initWeb3(provider);

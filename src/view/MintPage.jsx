@@ -79,10 +79,17 @@ class MintPage extends Component {
             tooltipNode.classList.remove('show');
         }, 2000);
     }
-
+    connecting = () => {
+        toast("Connecting your wallet...");
+    }
     getWeb3Details =  async (param) => {
-        if(!param) return;
+        if(!param._web3) 
+        {
+            toast("Disconnecting your wallet...");
+            return;
+        }
         try {
+            
             const _symbol = param._balance.length > 0 ? param._balance[0].symbol : '';
             const _balance = param._balance.length > 0 ? `${handleSignificantDecimals(convertAmountFromRawNumber(param._balance[0].balance), 8)}` : '';
             this.setState({
@@ -120,6 +127,7 @@ class MintPage extends Component {
                     phase_qty: curPhase.qty
                 }
             );
+            toast("Connected your wallet!");
         } catch (error) {
             toast(error.message);
         }
@@ -143,6 +151,7 @@ class MintPage extends Component {
         }
     
         try {
+            toast("Minting NFTs is in-progress. Please wait for a while....");
             const web3 = this.state.web3;
             const shg = await new web3.eth.Contract(shgContract.abi, this.state.contract_address);
             const wei_amount = await shg.methods.discountPrice(nft_count).call();
@@ -210,7 +219,7 @@ class MintPage extends Component {
                             </div> */}
 
                             <div className="connection-group d-flex align-items-center justify-content-center pd-b60">
-                                <WalletModal getInfoCallback={param => this.getWeb3Details(param)} />
+                                <WalletModal connecting={()=>this.connecting()} getInfoCallback={param => this.getWeb3Details(param)} />
                                 
                                 {/* <input type="number" min="1" max="25" className="form-control" placeholder="Enter Here" onChange={(e) => { this.countHandler(e); }} value={this.state.count} /> */}
                                 
