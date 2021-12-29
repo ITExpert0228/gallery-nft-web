@@ -125,7 +125,7 @@ class MainSlider extends Component {
               <Countdown timeTillDate="0" timeFormat="YYYY-MM-DTHH:mm:ss" />
             </Col> */}
             <Col lg={3} md={3} sm={12} className="col-xs-12">
-              <div className='btn_top_fold_wrapper'>
+              <div className='btn_top_fold_arrow'>
                 <div className="center">
                   <div className='arrow'>
                     <i className="fas fa-long-arrow-alt-right"></i>

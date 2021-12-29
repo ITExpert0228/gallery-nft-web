@@ -271,8 +271,11 @@
     }
     .slider-area .slider-content h2 {
         font-size: 25px;
-      }
-    .btn_top_fold_wrapper .center .arrow{
+    }
+    .btn_top_fold_arrow{
+        height: 55px;
+    }
+    .btn_top_fold_arrow .center .arrow{
         font-size: 30px;
     }
     .btn_top_fold_wrapper {

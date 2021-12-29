@@ -901,7 +901,12 @@ input[type="number"] {
   -webkit-appearance: none;
 }
 
-.btn_top_fold_wrapper .center .arrow{
+.btn_top_fold_arrow{
+  position: relative;
+  height: 125px;
+  width: 100%;
+}
+.btn_top_fold_arrow .center .arrow{
   font-weight: 900;
   font-size: 150px;
   color: #F2D969 !important;
