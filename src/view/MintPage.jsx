@@ -121,7 +121,7 @@ class MintPage extends Component {
                 }
             );
         } catch (error) {
-            toast("Invalid network: Please connect to a correct ethereum network in your wallet." + error.message);
+            toast(error.message);
         }
     }
 

@@ -71,10 +71,13 @@ class Countdown extends Component {
       const now = new Date().getTime();
       const countdown = then - now;
 
-      const days = Math.floor(countdown / (day));
-      const hours = Math.floor((countdown % (day)) / (hour));
-      const minutes = Math.floor((countdown % (hour)) / (minute));
-      const seconds = Math.floor((countdown % (minute)) / second);
+      let days = 0, hours = 0, minutes = 0, seconds = 0;
+      if(timeTillDate != '0') {
+        days = Math.floor(countdown / (day));
+        hours = Math.floor((countdown % (day)) / (hour));
+        minutes = Math.floor((countdown % (hour)) / (minute));
+        seconds = Math.floor((countdown % (minute)) / second);
+      }
       this.setState({ days, hours, minutes, seconds });
     }, 1000);
   }
