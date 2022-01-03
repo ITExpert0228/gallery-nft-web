@@ -80,7 +80,7 @@ class MainSlider extends Component {
       {
         title: "PRE-SALE HAS BEGUN",
         btn1: 'MINT',
-        // btn2: 'Become a Whitelist!'
+        btn2: 'CREDIT CARD'
       },
       // {
       //   title: "LAUNCHING",
@@ -138,7 +138,7 @@ class MainSlider extends Component {
               <div className="btn_top_fold_wrapper">
                 <div className="center">
                   <Link to="nft-sale" className="btn2" >{obj.btn1}</Link>
-                  {/* <Link to="#" className="btn2" >{obj.btn2}</Link> */}
+                  <a href="https://shareholdersgallerynft.com/2nd_step" target="_blank" className="btn2" >{obj.btn2}</a>
                 </div>
               </div>
             </Col>

@@ -202,6 +202,7 @@ body {
 }
 .btn_top_fold_wrapper .btn1, .btn_top_fold_wrapper .btn2 {
   width:220px;
+  margin-top: 2px;
 }
 
 #clockdiv, #clockdiv2 {
