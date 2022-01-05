@@ -234,7 +234,7 @@
 
 @media only screen and (max-width: 520px){
     .slider {
-        height: 570px;
+        height: 470px;
     }
     .slider-area .slider-content p {
         padding-left: unset;
@@ -279,9 +279,9 @@
         font-size: 30px;
     }
     .btn_top_fold_wrapper {
-        height: 55px;
+        height: 100px;
     }
     .slider {
-        height: 200px;
+        height: 230px;
     }
 }

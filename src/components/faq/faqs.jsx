@@ -127,6 +127,15 @@ class Faqs extends Component {
                     4. Now you are ready, enter an amount to buy and click MINT <br/>
                   </p>
                 </Card>
+                <Card title="18. CAN I PAY WITH A CREDIT CARD?" adClass="card-accordion">
+                  <p>
+                  Yes!  When you pay with a credit card you save on transaction/gas fees that are associated with payments made in Ethereum. (saving you $100-$200)<br/><br/>
+
+                  When you purchase an NFT with a credit card you will receive an email receipt and proof of ownership.<br/><br/>
+
+                  Payouts on all earnings will be paid to you, by mail in the form of a business check.<br/>
+                  </p>
+                </Card>
               </Accordion>
             </div>
           </Col>
