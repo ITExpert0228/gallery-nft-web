@@ -274,6 +274,7 @@
     }
     .btn_top_fold_arrow{
         height: 55px;
+        display: none;
     }
     .btn_top_fold_arrow .center .arrow{
         font-size: 30px;
